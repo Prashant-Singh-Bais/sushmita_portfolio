@@ -1,0 +1,22 @@
+.nav-bar {
+  background: white;
+  width: 15%; /* Sidebar width */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.logo {
+  display: block;
+  width: 20%; /* Adjust this to control the logo size */
+  margin: 0 auto; /* Center the logo */
+  padding-top: 20px; /* Optional padding */
+  padding-bottom: 10px; /* Optional padding */
+}
+
+.logo img {
+  display: block;
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+}/*# sourceMappingURL=index.css.map */

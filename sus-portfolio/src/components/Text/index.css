@@ -1,0 +1,71 @@
+.textboxA {
+  position: absolute;
+  top: 40px;
+  left: 15%;
+}
+
+#h1 {
+  color: #000;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 72px */
+  letter-spacing: -1.104px;
+}
+
+.textboxB {
+  z-index: 3;
+  position: absolute;
+  top: 80px;
+  left: 15%;
+  width: 67%;
+  height: auto;
+}
+
+.h2 {
+  color: #1E1E1E;
+  font-family: "Space_grotesk";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 84px */
+  letter-spacing: -0.616px;
+}
+
+.textboxC {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 3;
+  left: 15%;
+  top: 300px;
+}
+.textboxC .B1 {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+.textboxC .B2 {
+  display: block;
+  width: 20%;
+  height: auto;
+}
+.textboxC .B3 {
+  display: block;
+  width: 20%;
+  height: auto;
+}
+
+.h3 {
+  text-wrap: wrap;
+  color: #000;
+  font-family: "Rubik";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.552px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=index.css.map */
