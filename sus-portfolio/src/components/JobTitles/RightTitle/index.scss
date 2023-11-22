@@ -1,0 +1,35 @@
+
+h5 {
+    color: #1E1E1E;
+    font-family: Space Grotesk;
+    font-size: 467%;//56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 84px */
+    letter-spacing: -0.616px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h6 {
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.368px;
+    text-transform: capitalize;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.parentContainer {
+    display: flex;
+    justify-content: flex-end; /* Aligns children to the right */
+}
+.WrapperRight {
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    z-index: 3;
+}

@@ -27,7 +27,16 @@ h3 {
     letter-spacing: -0.552px;
     text-transform: uppercase;
 }
-
+h4 {
+    color: #000;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.368px;
+    text-transform: capitalize;
+}
 .Text {
     position: relative;
     display: block;
@@ -77,6 +86,11 @@ h3 {
         width: 19%;
         height: auto;
 
+    }
+    .textboxD {
+        z-index: 3;
+        position: relative;
+        padding-top: 211px;
     }
 }
 

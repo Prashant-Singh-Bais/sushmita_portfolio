@@ -3,7 +3,7 @@ import Sidebar from '../Sidebar';
 import Text from '../Text';
 import './index.scss';
 
-const Layout = () => {
+const Home = () => {
     return (
     <div className="main-container"> 
     <Sidebar /> 
@@ -14,4 +14,4 @@ const Layout = () => {
 }
 
 
-export default Layout;
+export default Home;
