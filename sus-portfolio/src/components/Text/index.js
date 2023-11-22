@@ -1,5 +1,7 @@
 import React from 'react';
 import './index.scss';
+import DownArrow from '../../assets/Arrow_image.png'
+
 
 const Text = () => (
     <div className="Text">
@@ -13,7 +15,9 @@ const Text = () => (
             <h3 className="B1">MS in Strategic Design & Management, Parsons School of Design, New York</h3>
             <h3 className="B2">ILLUSTRATOR & MULTI-MEDIA ARTIST</h3>
             <h3 className="B3">DOMAIN EXPERTISE IN LEARNING & EDUCATION</h3>
-            
+        </div>
+        <div className='Downarrow'>
+            <img src= {DownArrow} alt="Down Arrow"/>
         </div>
     </div>
 );

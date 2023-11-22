@@ -1,71 +1,83 @@
 
-.textboxA {
-    position: absolute;
-    top: 40px;
-    left: 15%;
-}
-#h1 {
+h1 {
     color: #000;
-    font-family: 'Rubik';
-    font-size: 30px;
+    font-family: Rubik;
+    font-size: 400%;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 72px */
     letter-spacing: -1.104px;
 }
-.textboxB {
-    z-index: 3;
-    position: absolute;
-    top: 80px;
-    left: 15%;
-    width: 67%;
-    height: auto;
-}
-.h2 {
+h2 {
     color: #1E1E1E;
-    font-family: 'Space_grotesk';
-    font-size: 40px;
+    font-family: Space Grotesk;
+    font-size: 467%;//56px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 84px */
     letter-spacing: -0.616px;
 }
-
-
-.textboxC {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    z-index: 3;
-    left: 15%;
-    top: 300px;
-    .B1 {
-        display: block;
-        width: 30%;
-        height:auto;
-    }
-    .B2 {
-        display: block;
-        width: 20%;
-        height: auto;
-    }
-    .B3 {
-        display: block;
-        width: 20%;
-        height: auto;
-    }
-}
-.h3 {
-    text-wrap: wrap;
+h3 {
     color: #000;
-    font-family: 'Rubik';
-    font-size: 12px;
+    font-family: Rubik;
+    font-size: 24px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 36px */
     letter-spacing: -0.552px;
     text-transform: uppercase;
+}
+
+.Text {
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 3;
+    left: 8.53%;
+    top: 2.1%;//194px;
+    width: 85%;
+
+    .textboxA {
+        z-index: 3;
+        position: relative;
+        top: 0%;
+    }
+    .textboxB {
+        z-index: 3;
+        position: relative;
+        width: 68%;
+        height: auto;
+    }
+    .textboxC {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        z-index: 3;
+        .B1 {
+            display: block;
+            width: 35%;
+            height:auto;
+        }
+        .B2 {
+            display: block;
+            width: 20%;
+            height: auto;
+        }
+        .B3 {
+            display: block;
+            width: 19%;
+            height: auto;
+        }
+    }
+    .Downarrow {
+        position: relative;
+        display: block;
+        width: 19%;
+        height: auto;
+
+    }
 }
 
 

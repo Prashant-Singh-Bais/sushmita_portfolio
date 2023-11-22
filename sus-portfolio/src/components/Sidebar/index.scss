@@ -1,27 +1,6 @@
-// .nav-bar {
-//     background: #7E41FF33;
-//     width:20%;
-//     height: 100%;
-//     position: absolute;
-//     top: 0;
-//     z-index: 3;
-    
-//     .logo{
-//         display: block;
-//         padding: 50% 50%;
-//         width: 5%;
-//         height: auto;
-
-//         .img{
-//             display: block;
-//             margin: 50% auto;
-//         }
-
-//     }
-// }
 .nav-bar {
-    background: #ffff;
-    width: 15%; /* Sidebar width */
+    background: #ffffff00;
+    width: 8.53%; /* Sidebar width */
     height: 100%;
     position: absolute;
     top: 0;
@@ -30,10 +9,11 @@
 
 .logo {
     display: block;
-    width: 20%; /* Adjust this to control the logo size */
+    width: 41%; /* Adjust this to control the logo size */
     margin: 0 auto; /* Center the logo */
     padding-top: 20px; /* Optional padding */
     padding-bottom: 10px; /* Optional padding */
+    min-width: 40px;
 }
 
 .logo img {

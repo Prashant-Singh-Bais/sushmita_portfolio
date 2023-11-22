@@ -4,15 +4,15 @@
   left: 15%;
 }
 
-#h1 {
+h1 {
   color: #000;
-  font-family: "Rubik";
-  font-size: 30px;
+  font-family: Rubik;
+  font-size: 48px;
   font-style: normal;
   font-weight: 300;
   line-height: 150%; /* 72px */
   letter-spacing: -1.104px;
-}
+  }
 
 .textboxB {
   z-index: 3;
@@ -23,9 +23,9 @@
   height: auto;
 }
 
-.h2 {
+h2 {
   color: #1E1E1E;
-  font-family: "Space_grotesk";
+  font-family: "Space Grotesk";
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -58,7 +58,7 @@
   height: auto;
 }
 
-.h3 {
+h3 {
   text-wrap: wrap;
   color: #000;
   font-family: "Rubik";
