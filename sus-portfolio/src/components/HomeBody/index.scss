@@ -1,0 +1,140 @@
+
+.Text {
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 3;
+    left: 8.53%;
+    top: 2.1%;//194px;
+    width: 85%;
+
+    .textboxA {
+        z-index: 3;
+        position: relative;
+        top: 0%;
+    }
+    .textboxB {
+        z-index: 3;
+        position: relative;
+        width: 68%;
+        height: auto;
+    }
+    .textboxC {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        z-index: 3;
+        .B1 {
+            display: block;
+            width: 35%;
+            height:auto;
+        }
+        .B2 {
+            display: block;
+            width: 20%;
+            height: auto;
+        }
+        .B3 {
+            display: block;
+            width: 19%;
+            height: auto;
+        }
+    }
+    .Downarrow {
+        position: relative;
+        display: block;
+        width: 19%;
+        height: auto;
+
+    }
+    .textboxD {
+        z-index: 3;
+        position: relative;
+        padding-top: 211px;
+    }
+    .Box1 {
+        display: block;
+        z-index: 3;
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 0px;
+        margin: 0px;
+    }
+    .Box2 {
+        
+        z-index: 3;
+        position: relative;
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        margin: 0px;
+    }
+    .Box3 {
+        display: block;
+        z-index: 3;
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0px;
+        align-items: end;
+        text-align: right;
+        .outertextbox{
+            display: inline-block;
+        }
+    }
+    .Box4 {
+        display: block;
+        z-index: 3;
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 40px;
+        align-items: end;
+        text-align: left;
+        .outertextbox{
+            display: inline-block;
+        }
+    }
+
+    .Box5 {   
+        z-index: 3;
+        position: relative;
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0px;
+    }
+    .Box6 {
+        display: block;
+        z-index: 3;
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0px;
+        align-items: end;
+        text-align: right;
+        .outertextbox{
+            display: inline-block;
+        }
+    }
+    .Box7 {
+        display: block;
+        z-index: 3;
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 40px;
+        align-items: end;
+        text-align: left;
+        .outertextbox{
+            display: inline-block;
+        }
+    }
+
+    
+}
+
+
+

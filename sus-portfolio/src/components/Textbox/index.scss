@@ -1,0 +1,53 @@
+.outertextbox{
+    padding: 0px; // Sufficient padding from each side
+    margin: 0px;
+    width: 38.9%;
+    height: 491px;
+    min-width: 300px;
+    border: 1px solid black;
+        h2, p {
+        margin: 0; // Removes default margin from headings
+        padding: 40px 40px; // Adds vertical padding to the headings
+        }
+}
+.outertextbox .headingBox h2 {
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 60px */
+    letter-spacing: -0.92px;
+  }
+
+.outertextbox .subheadingBox p{
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: -0.552px;
+}
+.outertextbox  .subheadingBox p strong{
+    font-weight: 600;
+}
+
+.headingBox, .subheadingBox{
+    text-align: left;
+}
+
+.outertextbox:hover {
+    .headingBox h2 {
+        color: #7E41FF;
+        transform: translate(0px,-2px);
+    }
+    .subheadingBox p {
+        transform: translate(0px,2px);
+    }
+    border-color: #000;
+    background-color: #F7F4FF;
+    cursor: pointer;
+    
+    /* other hover styles */
+  }

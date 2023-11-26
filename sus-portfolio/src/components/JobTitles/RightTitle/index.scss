@@ -23,13 +23,26 @@ h6 {
     padding-top: 0px;
     margin-top: 0px;
 }
-.parentContainer {
+
+
+.WrapperRight{
     display: flex;
-    justify-content: flex-end; /* Aligns children to the right */
-}
-.WrapperRight {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+
+.RightTitle{
+    left: 0;
     position: relative;
     display: block;
     flex-wrap: wrap;
     z-index: 3;
+    padding-right: 10px;
+}
+
+.LogoImageL img {
+    height: 100px;
+    width: auto;  
+}
 }

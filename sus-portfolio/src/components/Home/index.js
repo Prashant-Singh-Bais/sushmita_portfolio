@@ -1,6 +1,6 @@
 import Ellipse from '../Ellipse';
 import Sidebar from '../Sidebar';
-import Text from '../Text';
+import HomeBody from '../HomeBody';
 import './index.scss';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     <div className="main-container"> 
     <Sidebar /> 
     <Ellipse /> 
-    <Text/>
+    <HomeBody/>
     </div>
     )
 }
