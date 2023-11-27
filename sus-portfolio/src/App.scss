@@ -11,3 +11,21 @@ $primary-color: #FFFFFF;
   font-family: 'Space Grotesk';
   src: url('./assets/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('ttf');
 }
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8.53%;
+  height: 100%;
+  /* Other styling as needed */
+}
+
+.page-content {
+  margin-left: 8.53%; /* Adjust based on sidebar width */
+  /* Other styling as needed */
+}
