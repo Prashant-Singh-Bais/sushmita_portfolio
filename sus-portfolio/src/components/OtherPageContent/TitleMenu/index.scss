@@ -1,0 +1,47 @@
+.titlemenu {
+    position:sticky;
+    top:1000;
+    .titlemenu-heading {
+      width: 81.25%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      background-color: #ffffff;
+      padding: 10px;
+      border: none;
+      text-align: left;
+
+      color: #000;
+        font-family: Rubik;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 60px */
+        letter-spacing: -0.92px;
+  
+      &:hover {
+        background-color: #ffffff;
+      }
+    }
+  
+    .titlemenu-icon {
+      font-size: 70%;
+    }
+  
+    .titlemenu-content {
+      padding: 5px 15px;
+      background-color: white;
+      border-top: 1px solid #ddd;
+
+      color: #000;
+        font-family: Rubik;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 24px */
+        letter-spacing: -0.368px;
+        text-transform: capitalize;
+    }
+  }
+  

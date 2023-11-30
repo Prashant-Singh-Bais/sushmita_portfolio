@@ -25,4 +25,10 @@ const Text4 = ({ inputText }) => (
     </div>
 );
 
-export { Text1, Text2, Text3, Text4 };
+const Text5 = ({ inputText }) => (
+    <div className="Text5">
+        <h4>{inputText}</h4>
+    </div>
+);
+
+export { Text1, Text2, Text3, Text4, Text5 };

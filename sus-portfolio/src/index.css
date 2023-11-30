@@ -6,7 +6,7 @@ body {
   font-family: 'Rubik';
   color: #444;
   background: #ffff;
-  overflow-y: auto;
+  overflow-y: visible;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

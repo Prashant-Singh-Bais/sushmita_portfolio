@@ -1,0 +1,19 @@
+.pa-container{
+    margin-top: 50px;
+    display: flex;
+    overflow:visible;
+    
+    .acord-container{
+        background-color: #ffffff;
+        width: 26.14%;
+        margin-right: 50px;
+        display: flex;
+        align-items: flex-start;
+        overflow:visible;
+    }
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+}

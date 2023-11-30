@@ -1,0 +1,21 @@
+.overview { 
+    display: flex;
+    flex-direction: column;
+    margin: 100px 10px 0px 10px;
+
+    h4 {
+        color: var(--digital-lavender, #7E41FF);
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 24px */
+        letter-spacing: -0.368px;
+    }
+
+    .overview_img img {
+        display: block;
+        max-width: 100%; /* Maximum width of 100% of its container */
+        height: auto; /* Height is set to auto to maintain aspect ratio */
+    }
+}
