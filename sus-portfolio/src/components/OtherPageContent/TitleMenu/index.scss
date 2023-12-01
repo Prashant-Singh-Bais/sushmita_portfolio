@@ -1,6 +1,4 @@
 .titlemenu {
-    position:sticky;
-    top:1000;
     .titlemenu-heading {
       width: 81.25%;
       display: flex;
@@ -14,7 +12,7 @@
 
       color: #000;
         font-family: Rubik;
-        font-size: 40px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 60px */
@@ -27,12 +25,14 @@
   
     .titlemenu-icon {
       font-size: 70%;
+      transform: translateX(20px);
     }
   
     .titlemenu-content {
       padding: 5px 15px;
       background-color: white;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid white;
+      margin-bottom: 10px;
 
       color: #000;
         font-family: Rubik;
@@ -42,6 +42,10 @@
         line-height: 150%; /* 24px */
         letter-spacing: -0.368px;
         text-transform: capitalize;
+        .titlemenu-subheading{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
     }
   }
   

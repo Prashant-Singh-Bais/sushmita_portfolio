@@ -3,7 +3,7 @@ import './index.scss';
 
 const TextBox = ({ heading, subheadingBold, subheading }) => {
     const handleClick = () => {
-        window.location.href = 'https://www.google.com';
+        window.location.href = '/searchqna';
     };
 
     return (

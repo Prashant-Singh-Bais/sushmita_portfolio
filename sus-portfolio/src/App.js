@@ -6,6 +6,7 @@ import GIF from './components/Animation';
 import Accordion from './components/Accordion'
 import SearchQna from './components/SearchQna'
 import Sidebar from './components/Sidebar';
+import { Content1, Content2 } from './components/SearchQna/content';
 
 // function App() {
 //   return (
@@ -30,7 +31,7 @@ function App() {
         <div className="page-content">
         <Routes>
           <Route path="/" element = {<Home/>} />
-          <Route path="/test" element = {<Accordion/>} />
+          <Route path="/test" element = {<Content1/>} />
           <Route path="/searchqna" element = {<SearchQna/>} />
         </Routes>
         </div>

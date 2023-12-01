@@ -1,5 +1,6 @@
 
 .Text {
+    overflow-y: visible;
     position: relative;
     display: block;
     flex-wrap: wrap;
@@ -47,12 +48,16 @@
         display: block;
         width: 19%;
         height: auto;
+        padding-bottom: 211px;
 
     }
     .textboxD {
-        z-index: 3;
-        position: relative;
-        padding-top: 211px;
+        z-index: 35;
+        position: sticky;
+        background-color: #ffff;
+        padding-top: 20px;
+        top:0px;
+        
     }
     .Box1 {
         display: block;

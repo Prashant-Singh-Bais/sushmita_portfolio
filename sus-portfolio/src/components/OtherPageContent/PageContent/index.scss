@@ -1,14 +1,13 @@
-// .content-section h3{
-//     color: #1E1E1E;
-//     font-family: Space Grotesk;
-//     font-size: 46.027px;
-//     font-style: normal;
-//     font-weight: 700;
-//     line-height: 150%; /* 69.041px */
-//     letter-spacing: -0.506px;
-//     }
-
-/* ContentSection.css */
+.content-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transform: translateY(-60px);
+    .sub-section{
+        margin-top: 0;
+        
+    }
+}
 
 .content-section .sub-section h3 {
     color: #00c3dd; /* Dark grey color for h3 headings */

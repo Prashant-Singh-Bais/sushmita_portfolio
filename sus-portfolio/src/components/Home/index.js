@@ -3,15 +3,6 @@ import Sidebar from '../Sidebar';
 import HomeBody from '../HomeBody';
 import './index.scss';
 
-// const Home = () => {
-//     return (
-//     <div className="main-container"> 
-//     <Sidebar /> 
-//     <Ellipse /> 
-//     <HomeBody/>
-//     </div>
-//     )
-// }
 const Home = () => {
     return (
         <div className="main-container">

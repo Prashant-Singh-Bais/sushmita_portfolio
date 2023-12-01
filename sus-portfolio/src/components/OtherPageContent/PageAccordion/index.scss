@@ -2,18 +2,25 @@
     margin-top: 50px;
     display: flex;
     overflow:visible;
+    // align-items: start;
     
     .acord-container{
         background-color: #ffffff;
-        width: 26.14%;
-        margin-right: 50px;
+        margin-top: 20px;
+        margin-right: 10px;
         display: flex;
         align-items: flex-start;
         overflow:visible;
+    }
+    .content-container{
+        align-items: start;
+        margin-left: 30px;
+        margin-right: 20px;
+        width: 70%;
     }
 }
 
 .sticky{
     position: sticky;
-    top:0;
+    top:100px;
 }

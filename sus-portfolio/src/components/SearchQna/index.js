@@ -8,7 +8,7 @@ import stra_think from "../../assets/Skills/stra_think.svg"
 import ux_design from "../../assets/Skills/ux_design.svg"
 import iphone from "../../assets/iPhones.svg"
 import qna from "../../assets/qna.svg"
-import { Content1, Content2 } from './content';
+import { Content1, Content2, Content3, Content4, Content5, Content6 } from './content';
 
 const heading1 = "edtech   |   byju’s think n learn pvt ltd  ";
 const heading2 = "Phased rollout of the Search QnA feature: driving product development with UX design/design thinking";
@@ -31,12 +31,12 @@ const items_data = [
     {
         heading: 'Definition phase',
         subheadings: ['Ask-a-doubt', 'Demo App Screens'],
-        content: ["something3", "something4"]
+        content: [Content3, Content4]
       },
     {
         heading: 'Minimum Viable Product phase',
         subheadings: ['Interaction Design', 'Development & Testing'],
-        content: ["something5", "something6"]
+        content: [Content5, Content6]
       },
   ];
 

@@ -34,9 +34,10 @@ const HomeBody = () => (
 
         <div className="textboxD">
             <Text4 inputText = "Industry experience"/>
+            <StLines/>
         </div>
 
-        <StLines/>
+        
         <Accordion 
         title={
         <RightTitle heading="Senior Interaction Designer" description="Learning & Education   |   Health   |   Gen AI" logoimage={IDEO_logo} />
