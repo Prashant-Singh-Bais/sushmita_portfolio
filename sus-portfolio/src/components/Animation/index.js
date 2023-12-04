@@ -1,8 +1,7 @@
 import './index.scss'
 import React, { useEffect, useRef } from 'react';
-import Dummy_GIF from '../../assets/DummyGIF.gif'
 
-const GIF = () => {
+const GIF1 = () => {
     const pathRef = useRef(null);
     const arrowRef = useRef(null);
 
@@ -34,13 +33,4 @@ const GIF = () => {
         </svg>
     );
 };
-
-
-const DummyGIF = () => (
-    <div className="DummyGIF">
-        <img src= {Dummy_GIF} alt="DummyGIF"/>
-    </div>
-);
-
-
-export  { GIF, DummyGIF};
+export  {GIF1};

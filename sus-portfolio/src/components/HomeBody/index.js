@@ -6,12 +6,15 @@ import Byjus_logo from '../../assets/Byjus_logo.png'
 import ThinkPlace_logo from '../../assets/ThinkPlace_logo.png'
 import VICE_logo from '../../assets/VICE_logo.png'
 import aristotle_logo from '../../assets/aristotle_logo.png'
+import Dummy_GIF from '../../assets/DummyGIF.gif'
 import StLines from '../Shapes/StLines'
 import LeftTitle from '../JobTitles/LeftTitle'
 import RightTitle from '../JobTitles/RightTitle'
 import TextBox from '../Textbox';
 import {Text1, Text2, Text3, Text4} from '../Text';
 import Accordion from '../Accordion';
+
+
 
 const HomeBody = () => (
     <div className="Text">
@@ -45,17 +48,26 @@ const HomeBody = () => (
             <div className="Box1">
                 <TextBox heading="Reimagining the Diabetic Patient Experience" 
                         subheadingBold = "UX design" 
-                        subheading=" to reposition a global healthcare giant with enhanced patient-centric features and user flows"/>
+                        subheading=" to reposition a global healthcare giant with enhanced patient-centric features and user flows"
+                        linkPage={"/searchqna"}
+                        GIFPath = {Dummy_GIF}
+                        />
             </div>
             <div className='Box2'>
                 <TextBox 
                         heading="Public Health Design Research" 
                         subheadingBold = "Service Design" 
-                        subheading=" to promote early dementia detection in partnership with the Public Health Dept & State University."/>
+                        subheading=" to promote early dementia detection in partnership with the Public Health Dept & State University."
+                        linkPage={"/searchqna"}
+                        GIFPath = {Dummy_GIF}
+                        />
                 <TextBox
                 heading="The Student Writing Experience" 
                         subheadingBold = "Strategy + UX design" 
-                        subheading=" to test and launch newly conceptualized Gen AI based writing features, with a focus on learner inclusivity."/>
+                        subheading=" to test and launch newly conceptualized Gen AI based writing features, with a focus on learner inclusivity."
+                        linkPage={"/searchqna"}
+                        GIFPath = {Dummy_GIF}
+                        />
             </div>
         </Accordion>
         <StLines/>
@@ -63,12 +75,18 @@ const HomeBody = () => (
             <div className="Box3">
                 <TextBox heading="Search Q&A Feature definition + UX Design " 
                         subheadingBold = "From PRD to test & launch" 
-                        subheading=" in 6 months"/>
+                        subheading=" in 6 months"
+                        linkPage={"/searchqna"}
+                        GIFPath = {Dummy_GIF}
+                        />
             </div>
             <div className="Box4">
                 <TextBox heading="Distractors Feature definition + UX Design" 
                         subheadingBold = "Pedagogy + Strategy" 
-                        subheading=" to track and improve learning outcomes"/>
+                        subheading=" to track and improve learning outcomes"
+                        linkPage={"/searchqna"}
+                        GIFPath = {Dummy_GIF}
+                        />
             </div>
         </Accordion>
         
@@ -82,11 +100,17 @@ const HomeBody = () => (
             <TextBox 
                     heading="Market Study + Product Strategy" 
                     subheadingBold = "b2b -> b2c journey" 
-                    subheading=""/>
+                    subheading=""
+                    linkPage={"/searchqna"}
+                    GIFPath = {Dummy_GIF}
+                    />
             <TextBox
             heading="Product UX Design + Management" 
                     subheadingBold = "Design -> Launch journey" 
-                    subheading=""/>
+                    subheading=""
+                    linkPage={"/searchqna"}
+                    GIFPath = {Dummy_GIF}
+                    />
             </div>
         </Accordion>
         
@@ -98,7 +122,10 @@ const HomeBody = () => (
             <div className="Box6">
                 <TextBox heading="Co-designing the Future of Volunteering in Australia" 
                         subheadingBold = "" 
-                        subheading=""/>
+                        subheading=""
+                        linkPage={"/searchqna"}
+                        GIFPath = {Dummy_GIF}
+                        />
             </div>
         </Accordion>
         <StLines/>
@@ -109,7 +136,10 @@ const HomeBody = () => (
             <div className="Box7">
                 <TextBox heading="Repositioning Vice as the pioneer of Social ‘Impact’ Media" 
                         subheadingBold = "UX Research + Brand Strategy" 
-                        subheading=" leading to a multi-channel campaign design."/>
+                        subheading=" leading to a multi-channel campaign design."
+                        linkPage={"/searchqna"}
+                        GIFPath = {Dummy_GIF}
+                        />
             </div>
         </Accordion>
         <StLines/>

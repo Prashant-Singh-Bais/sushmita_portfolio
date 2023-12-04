@@ -53,8 +53,13 @@
 
 .gifContainer {
     position: absolute;
-    .dummy{
-        z-index: 70;
-    }
+    opacity: 100%;
+    img{
+        position: absolute;
+        width: 500px;
+        height: auto;
+        z-index: 5000;
+        opacity: 100%;
+      }
   }
   
