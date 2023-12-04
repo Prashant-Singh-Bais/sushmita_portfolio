@@ -1,14 +1,25 @@
+
+
+@font-face {
+  font-family: 'Rubik_custom';
+  src: url('../public/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../public/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
+
 html{
   font-size:62.5%;
 }
 body {
+  font-family: 'Rubik_custom', 'Space Grotesk';
   margin: 0;
-  font-family: 'Rubik';
   color: #444;
   background: #ffff;
   overflow-y: visible;
   display: block;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-

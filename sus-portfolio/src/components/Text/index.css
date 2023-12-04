@@ -6,7 +6,7 @@
 
 h1 {
   color: #000;
-  font-family: Rubik;
+  font-family: Rubik_custom;
   font-size: 48px;
   font-style: normal;
   font-weight: 300;
@@ -61,7 +61,7 @@ h2 {
 h3 {
   text-wrap: wrap;
   color: #000;
-  font-family: "Rubik";
+  font-family: "Rubik_custom";
   font-size: 12px;
   font-style: normal;
   font-weight: 300;

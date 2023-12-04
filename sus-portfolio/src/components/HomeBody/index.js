@@ -34,7 +34,7 @@ const HomeBody = () => (
 
         <div className="textboxD">
             <Text4 inputText = "Industry experience"/>
-            <StLines/>
+            <StLines className='line'/>
         </div>
 
         

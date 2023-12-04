@@ -3,14 +3,15 @@ $primary-color: #FFFFFF;
 @import 'animate.css';
 
 @font-face {
-  font-family: 'Rubik';
-  src: url('./assets/Rubik/Rubik-VariableFont_wght.ttf') format('ttf');
+  font-family: 'Rubik_custom';
+  src: url('../public/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Space Grotesk';
-  src: url('./assets/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('ttf');
+  src: url('../public/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
 }
+
 
 .app-container {
   display: flex;
