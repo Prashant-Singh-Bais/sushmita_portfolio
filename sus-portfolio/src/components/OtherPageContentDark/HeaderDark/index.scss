@@ -1,0 +1,151 @@
+.HeaderDark {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: auto;
+  
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      margin-bottom: 20px;
+      }
+  
+      .header-texts {
+        margin-top: 180px;
+        width: 100%;
+        h1 {
+          margin: 0;
+          padding: 5px;
+          color: var(--digital-lavender, #7E41FF);
+            font-family: "Rubik_custom";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 150%; /* 36px */
+            letter-spacing: -0.552px;
+            text-transform: uppercase;
+        }
+  
+        h2 {
+          margin: 10px 0;
+          color: #FFF;;
+            font-family: Space Grotesk;
+            font-size: 46.027px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 69.041px */
+            letter-spacing: -0.506px;
+        }
+      }
+  
+      .header-image {
+        width:100%;
+        img {
+          min-width: 100px; // Adjust as needed
+          height: auto;
+        }
+      }
+
+    
+
+    .describe_container{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 5px;
+    width: 100%;
+    position: relative;
+    .myrole ul {
+        list-style-type: disc;
+        color: #FFF;
+    }
+    .collaborators  {
+        ul{
+        list-style-type: none;
+        li{text-transform: uppercase;}
+        }
+        p{
+            text-transform: uppercase;
+        }
+    }
+    .skills, .collaborators, .myrole {
+      width: 33.33%;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      margin-top: 20px;
+      margin-left: 20px;
+  
+      h3 {
+        margin-right: 10px;
+        color: var(--digital-lavender, #7E41FF);
+        font-family: "Rubik_custom";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 24px */
+        letter-spacing: -0.368px;
+      }
+      p{
+        margin: 5px 10px 10px 0px;
+        color: #FFF;;
+        font-family: "Rubik_custom";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 24px */
+        letter-spacing: -0.368px;
+        // text-transform: uppercase;
+      }
+  
+      ul {
+        // list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+        align-items: left;
+        padding: 0px;
+  
+        li {
+            color: #FFF;
+          margin: 5px 0;
+          font-family: "Rubik_custom";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 150%; /* 24px */
+          letter-spacing: -0.368px;
+        //   text-transform: uppercase;
+        }
+      }
+  
+      .skill {
+        display: flex;
+        flex-direction: left;
+        align-items: left;
+        margin: 5px 10px;
+        span{
+            align-items: center;
+            color: #FFF;
+            font-family: "Rubik_custom";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 150%; /* 24px */
+            letter-spacing: -0.368px;
+            text-transform: uppercase;
+        }
+        img {
+          max-width: 50px; // Adjust as needed
+          height: auto;
+          margin-right: 5px;
+          filter: invert(1);
+        }
+      }
+    }
+    }
+}
+

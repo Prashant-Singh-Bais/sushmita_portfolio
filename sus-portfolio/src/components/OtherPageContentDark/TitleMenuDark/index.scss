@@ -1,0 +1,55 @@
+.titlemenuDark {
+    .StLine{
+      filter: brightness(0) invert(1) sepia(0%) saturate(10000%) hue-rotate(0deg);
+    }
+    .titlemenu-heading {
+      width: 81.25%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      background-color: #000001;
+      padding: 10px;
+      border: none;
+      text-align: left;
+
+      color: #ffffff;
+        font-family: "Rubik_custom";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 60px */
+        letter-spacing: -0.92px;
+  
+      &:hover {
+        background-color: #000001;
+      }
+    }
+  
+    .titlemenu-icon {
+      font-size: 70%;
+      color: #ffffff;
+      transform: translateX(20px);
+    }
+  
+    .titlemenu-content {
+      padding: 5px 15px;
+      background-color: #000001;
+      border-top: 1px solid #000001;
+      margin-bottom: 10px;
+
+      color: #ffffff;
+        font-family: "Rubik_custom";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 24px */
+        letter-spacing: -0.368px;
+        text-transform: capitalize;
+        .titlemenu-subheading{
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    }
+  }
+  

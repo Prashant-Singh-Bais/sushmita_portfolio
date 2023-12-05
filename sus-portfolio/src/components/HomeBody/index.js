@@ -137,7 +137,7 @@ const HomeBody = () => (
                 <TextBox heading="Repositioning Vice as the pioneer of Social ‘Impact’ Media" 
                         subheadingBold = "UX Research + Brand Strategy" 
                         subheading=" leading to a multi-channel campaign design."
-                        linkPage={"/searchqna"}
+                        linkPage={"/VICE"}
                         GIFPath = {Dummy_GIF}
                         />
             </div>

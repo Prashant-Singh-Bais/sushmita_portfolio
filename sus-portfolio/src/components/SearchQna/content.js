@@ -54,7 +54,7 @@ const Content2 = () => (
         <p>The discussions led us to park the social network concept due to moderation challenges and instead with focussed on -</p>
         <div className = 'img_text'>
             <img src= {img_6} alt="img_6"/>
-            <p>A straightforward Search experience where students would be able to enter doubts and receive solutions and recommendations to relevant content such as video lessons.</p>
+            <p>A straightforward Search experience where students would be able to enter doubts and receive solutions and recommendations to relevant content such as vVICE lessons.</p>
         </div>
         <div className = 'img_text'>
             <img src= {img_7} alt="img_7"/>
@@ -117,7 +117,7 @@ const Content5 = () => (
         <img src= {img_17} alt="img_17"/>
         <ul>
             <li>‘Solving steps’ were nested in a second layer. This would allow the student to explore the layer of detail that they may be looking for.</li>
-            <li>Video lessons, proven to improve engagement and learning outcomes, would appear along with the solving steps.</li>
+            <li>VVICE lessons, proven to improve engagement and learning outcomes, would appear along with the solving steps.</li>
         </ul>
         <div className='vertical_images'>
             <img src= {img_18} alt="img_18"/>
@@ -147,7 +147,7 @@ const Content5 = () => (
 const Content6 = () => (
     <div className="Content6">
         <p>With consensus on the UX design, we moved on to coordinating the UI design, front-end and back-end development. I used Jira to assign and track tasks.</p>
-        <p> The challenge faced by front-end developers was to coordinate video segments with the open steps. We then decided to forego the segmenting of videos.</p>
+        <p> The challenge faced by front-end developers was to coordinate vVICE segments with the open steps. We then decided to forego the segmenting of vVICEs.</p>
         <p>Back end developers mostly worked on data management and retrieval. In order to streamline content creation, a tutor-facing tool was designed and shipped. Below is the wireframe -</p>
         <div className='vertical_images'>
             <img src= {img_27} alt="img_27"/>
