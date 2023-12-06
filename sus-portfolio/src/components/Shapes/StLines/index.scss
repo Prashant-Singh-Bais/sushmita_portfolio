@@ -1,4 +1,24 @@
 .line {
-    border-bottom: 1px solid #000;
-    margin: 0px;
-  }
+  /* Common styles for the line */
+  height: 1px;
+  width: 80%;
+  margin: 0;
+  /* Add other common styles as needed */
+}
+
+/* Styles for light-colored line */
+.light-line {
+  background-color: white; /* Set the line color for 'light' type */
+  /* Add other styles for 'light' type */
+}
+
+/* Styles for dark-colored line */
+.dark-line {
+  background-color: black; /* Set the line color for 'dark' type */
+  /* Add other styles for 'dark' type */
+}
+.green-line {
+  background-color: #218148; /* Set the line color for 'dark' type */
+  width: 100%;
+  /* Add other styles for 'dark' type */
+}

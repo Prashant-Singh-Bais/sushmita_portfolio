@@ -8,7 +8,7 @@ import stra_think from "../../assets/Skills/stra_think.svg"
 import ux_design from "../../assets/Skills/ux_design.svg"
 import headerImg from "../../assets/VICE/header_vice.gif"
 import overviewImg from "../../assets/VICE/overview_img.png"
-// import { Content1, Content2, Content3, Content4, Content5, Content6 } from './content';
+import { Content1, Content2, Content3, Content4, Content5, Content6 } from './content';
 
 const heading1 = "media + tech   |   vice media group";
 const heading2 = "Research + Multi-channel campaign to position VICE as a pioneering platform for GenZ activism";
@@ -38,17 +38,47 @@ const items_data = [
     {
       heading: 'How Might We',
       subheadings: [],
-      content: ["Content1"]
+      content: [Content1]
     },
     {
-        heading: 'Definition phase',
-        subheadings: ['Ask-a-doubt', 'Demo App Screens'],
-        content: ["Content3", "Content4"]
+        heading: 'Design Research',
+        subheadings: ['Interviews', 'Focus Group','Social Listening','Literature Review'],
+        content: [Content2, Content3,Content4,"Content4"]
       },
     {
-        heading: 'Minimum Viable Product phase',
-        subheadings: ['Interaction Design', 'Development & Testing'],
+        heading: 'Sense-making',
+        subheadings: ['Extracting Narratives', 'System Mapping'],
         content: ["Content5", "Content6"]
+      },
+      {
+        heading: '8 Core Insights',
+        subheadings: [],
+        content: ["Content1"]
+      },
+      {
+        heading: 'Opportunities',
+        subheadings: [],
+        content: ["Content1"]
+      },
+      {
+        heading: 'Ideation',
+        subheadings: [],
+        content: ["Content1"]
+      },
+      {
+        heading: 'Prototyping',
+        subheadings: ['Prototype 1', 'Prototype 2', 'Prototype 3'],
+        content: ["Content3", "Content4","Content4"]
+      },
+      {
+        heading: 'Give-a-duck',
+        subheadings: [],
+        content: ["Content1"]
+      },
+      {
+        heading: 'Value Proposition',
+        subheadings: [],
+        content: ["Content1"]
       },
   ];
 

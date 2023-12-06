@@ -1,7 +1,12 @@
 .titlemenuDark {
-    .StLine{
-      filter: brightness(0) invert(1) sepia(0%) saturate(10000%) hue-rotate(0deg);
+  
+    max-height: 100vh;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      width: 0; /* Set the width to zero */
+      display: none; /* Hide the scrollbar */
     }
+
     .titlemenu-heading {
       width: 81.25%;
       display: flex;
@@ -23,6 +28,7 @@
   
       &:hover {
         background-color: #000001;
+        
       }
     }
   
