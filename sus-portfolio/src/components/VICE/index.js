@@ -8,7 +8,8 @@ import stra_think from "../../assets/Skills/stra_think.svg"
 import ux_design from "../../assets/Skills/ux_design.svg"
 import headerImg from "../../assets/VICE/header_vice.gif"
 import overviewImg from "../../assets/VICE/overview_img.png"
-import { Content1, Content2, Content3, Content4, Content5, Content6 } from './content';
+import { Content1, Content2, Content3, Content4, Content5, Content6, 
+          Content7, Content8, Content9, Content10, Content11, Content12 } from './content';
 
 const heading1 = "media + tech   |   vice media group";
 const heading2 = "Research + Multi-channel campaign to position VICE as a pioneering platform for GenZ activism";
@@ -43,42 +44,42 @@ const items_data = [
     {
         heading: 'Design Research',
         subheadings: ['Interviews', 'Focus Group','Social Listening','Literature Review'],
-        content: [Content2, Content3,Content4,"Content4"]
+        content: [Content2, Content3,Content4,Content5]
       },
     {
         heading: 'Sense-making',
-        subheadings: ['Extracting Narratives', 'System Mapping'],
-        content: ["Content5", "Content6"]
+        subheadings: [],
+        content: [Content6]
       },
       {
         heading: '8 Core Insights',
         subheadings: [],
-        content: ["Content1"]
+        content: [Content7]
       },
       {
         heading: 'Opportunities',
         subheadings: [],
-        content: ["Content1"]
+        content: [Content8]
       },
       {
         heading: 'Ideation',
         subheadings: [],
-        content: ["Content1"]
+        content: [Content9]
       },
       {
         heading: 'Prototyping',
-        subheadings: ['Prototype 1', 'Prototype 2', 'Prototype 3'],
-        content: ["Content3", "Content4","Content4"]
+        subheadings: [],
+        content: [Content10]
       },
       {
         heading: 'Give-a-duck',
         subheadings: [],
-        content: ["Content1"]
+        content: [Content11]
       },
       {
         heading: 'Value Proposition',
         subheadings: [],
-        content: ["Content1"]
+        content: [Content12]
       },
   ];
 

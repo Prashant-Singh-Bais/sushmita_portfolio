@@ -5,6 +5,13 @@ import Home from './components/Home';
 import SearchQna from './components/SearchQna';
 import VICE from './components/VICE';
 import Sidebar from './components/Sidebar';
+import ImageSlider from './components/ImageSlider';
+
+import img_25 from './assets/VICE/img_18.svg';
+import img_26 from './assets/VICE/img_19.svg';
+import img_27 from './assets/VICE/img_24.svg';
+
+const images = [img_25,img_26,img_27];
 
 function App() {
   const [currentPage, setCurrentPage] = useState('');
@@ -28,7 +35,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/searchqna" element={<SearchQna />} />
           <Route path="/VICE" element={<VICE />} />
-          {/* <Route path="/test" element={<ImageFlicker />} /> */}
+          <Route path="/test" element={<ImageSlider images = {images}/>} />
         </Routes>
       </div>
     </div>
