@@ -9,13 +9,9 @@
     }
 }
 
-// .content-section .sub-section h3 {
-//     color: #00c3dd; /* Dark grey color for h3 headings */
-//     font-size: 1.5em; /* Larger font size for h3 */
-//     margin-bottom: 0.5em; /* Space below the heading */
-//   }
   
   .content-section .sub-section h4 {
+    z-index: 1;
     color: #1E1E1E;
     font-family: Space Grotesk;
     font-size: 46.027px;
@@ -26,6 +22,7 @@
   }
   
   .content-section .sub-section p {
+    z-index: 1;
     color: #000;
     font-family: Rubik;
     font-size: 24px;

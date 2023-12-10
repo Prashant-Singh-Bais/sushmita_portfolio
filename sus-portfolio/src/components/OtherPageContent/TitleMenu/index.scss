@@ -5,7 +5,7 @@
       justify-content: space-between;
       align-items: center;
       cursor: pointer;
-      background-color: #ffffff;
+      background-color: #ffffff00;
       padding: 10px;
       border: none;
       text-align: left;
@@ -19,7 +19,7 @@
         letter-spacing: -0.92px;
   
       &:hover {
-        background-color: #ffffff;
+        background-color: #ffffff00;
       }
     }
   
@@ -30,8 +30,8 @@
   
     .titlemenu-content {
       padding: 5px 15px;
-      background-color: white;
-      border-top: 1px solid white;
+      background-color: rgba(255, 255, 255, 0);
+      border-top: 1px solid rgba(255, 255, 255, 0);
       margin-bottom: 10px;
 
       color: #000;

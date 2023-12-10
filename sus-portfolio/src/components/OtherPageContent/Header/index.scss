@@ -16,51 +16,85 @@
       &.header-content-row {
         flex-direction: row;
         align-items: left;
+        .header-texts {
+          margin-top: 180px;
+          width: 68.7%;
+          h1 {
+            margin: 0;
+            padding: 5px;
+            color: var(--digital-lavender, #7E41FF);
+              font-family: "Rubik_custom";
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: 150%; /* 36px */
+              letter-spacing: -0.552px;
+              text-transform: uppercase;
+          }
+    
+          h2 {
+            margin: 10px 0;
+            color: #1E1E1E;
+              font-family: Space Grotesk;
+              font-size: 46.027px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%; /* 69.041px */
+              letter-spacing: -0.506px;
+          }
+        }
+        .header-image {
+          width: 32.3%;
+          img {
+            min-width: 100px; // Adjust as needed
+            height: auto;
+          }
+        }
+
       }
   
       &.header-content-column {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
   
         .header-texts {
-          margin-bottom: 20px;
-          
+          position: relative;
+          margin-top: 200px;
+          padding-left: 0px;
+          width: 90%;
+          left:0;
+          h1 {
+            margin: 0;
+            padding: 5px;
+            color: var(--digital-lavender, #7E41FF);
+              font-family: "Rubik_custom";
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: 150%; /* 36px */
+              letter-spacing: -0.552px;
+              text-transform: uppercase;
+          }
+    
+          h2 {
+            margin: 10px 0;
+            color: #1E1E1E;
+              font-family: Space Grotesk;
+              font-size: 46.027px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%; /* 69.041px */
+              letter-spacing: -0.506px;
+          }
         }
-      }
-  
-      .header-texts {
-        margin-top: 180px;
-        width: 68.7%;
-        h1 {
-          margin: 0;
-          padding: 5px;
-          color: var(--digital-lavender, #7E41FF);
-            font-family: "Rubik_custom";
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 150%; /* 36px */
-            letter-spacing: -0.552px;
-            text-transform: uppercase;
-        }
-  
-        h2 {
-          margin: 10px 0;
-          color: #1E1E1E;
-            font-family: Space Grotesk;
-            font-size: 46.027px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 150%; /* 69.041px */
-            letter-spacing: -0.506px;
-        }
-      }
-  
-      .header-image {
-        width: 32.3%;
-        img {
-          min-width: 100px; // Adjust as needed
-          height: auto;
+        .header-image {
+          text-align: center;
+          width: 100%;
+          padding-top: 164px;
+          img {
+            min-width: 100px; // Adjust as needed
+            height: auto;
+          }
         }
       }
     }
@@ -69,13 +103,14 @@
     .describe_container{
     display: flex;
     justify-content: left;
+    justify-content: space-between;
     align-items: left;
     margin-top: 5px;
-    width: 60%;
+    width: 100%;
     position: relative;
     // transform: translateY(-150px);
     .skills, .collaborators, .myrole {
-      width: 33.33%;
+      width: 20%;
       display: flex;
       flex-direction: column;
       justify-content: left;

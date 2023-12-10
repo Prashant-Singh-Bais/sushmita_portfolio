@@ -1,0 +1,45 @@
+.img_text, .pair, .vertical_images{
+    display: flex;
+}
+
+.img_text{
+    align-items: center; 
+}
+
+.vertical_images img, .img_text_vertical{
+    padding-left: 10px;
+}
+
+.temp_head h2{
+    color: #fff;
+    font-family: Space Grotesk;
+    font-size: 46.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 69.041px */
+    letter-spacing: -0.506px;
+}
+
+
+
+
+.content{
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.pair {
+    .short{
+        width: 35%;
+        img{
+            padding-top:40px;
+            padding-left: 20px;
+        }
+    }
+    .long{
+        width: 65%;
+    }
+
+}

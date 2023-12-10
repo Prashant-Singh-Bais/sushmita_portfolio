@@ -1,0 +1,33 @@
+.daps-container{
+    overflow-y: visible;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+}
+
+.Header, .overview, .pa-container{
+    z-index: 1;
+}
+
+.blue-rectangular {
+    display: block;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 200vw; /* Set the width as desired */
+    height: 530px; /* Set the height as desired */
+    background: #01658B;; /* Set the background color to blue */
+    z-index: 0;
+    flex-shrink: 0; 
+  }
+
+.lightblue-rectangular {
+    position: absolute;
+    top: 2147px;
+    transform: translateX(-50%);
+    width: 200vw; /* Set the width as desired */
+    height: 1485px; /* Set the height as desired */
+    background: #dae3eb;; /* Set the background color to blue */
+    z-index: 0;
+    flex-shrink: 0; 
+  }
