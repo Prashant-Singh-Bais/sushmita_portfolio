@@ -44,7 +44,7 @@
     padding-left: 10px;
 }
 
-.temp_heading {
+.temp_heading_vice {
     h2{
         color: var(--vice-green, #218148);
         font-family: Rubik;
@@ -107,12 +107,12 @@
 }
 
 
-.Content2, .Content3 img{
+.vice_content2, .vice_content3 img{
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.Content3 .pair {
+.vice_content3 .pair {
     
 .long p{
 color: #fff;
@@ -145,7 +145,7 @@ letter-spacing: -0.368px;
 
 }
 
-.Content11 { 
+.vice_content11 { 
     img{
         width: 100%;
         height: auto;

@@ -6,6 +6,7 @@ import SearchQna from './components/SearchQna';
 import VICE from './components/VICE';
 import Sidebar from './components/Sidebar';
 import DAPS from './components/DAPS';
+import BackgroundCover from './components/Background';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/VICE" element={<VICE />} />
           <Route path="/da_strategy" element={<DAPS />} />
         </Routes>
+        <BackgroundCover divClassName="b2b-data-value-propositions" bgColor={'#dae3eb'}/>
       </div>
     </div>
   );

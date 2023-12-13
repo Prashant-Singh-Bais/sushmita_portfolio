@@ -54,16 +54,16 @@ import img_49 from '../../assets/VICE/img_49.gif'
 const images = [img_18, img_19, img_20, img_21, img_22, img_23, img_24, img_25]
 
 const Content1 = () => (
-    <div className="content1">
+    <div className="vice_content1">
         <p>We began by trying to understand the challenge more deeply, in conversations with VICE VP of Global Design & Global SVP of Insights along with preliminary research on Activism @ VICE</p>
         <img src= {img_1} alt="img_1"/>
     </div>
 );
 
 const Content2 = () => (
-    <div className="Content2">
+    <div className="vice_content2">
         <p>We designed our process to dive deep into young people’s motivations, fears, hopes, and experiences. We spoke for hours with Gen Z and millennials from all over the world to gain diverse perspectives on our challenge.</p>
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
             <h2>Research Objectives </h2>
         </div>
         <StLine type='green'/>
@@ -113,9 +113,9 @@ const Content2 = () => (
 );
 
 const Content3 = () => (
-    <div className="Content3">
+    <div className="vice_content3">
         <img src= {img_3} alt="img_3"/>
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
             <h2>Learnings </h2>
         </div>
         <StLine type='green'/>
@@ -150,9 +150,9 @@ const Content3 = () => (
 );
 
 const Content4 = () => (
-    <div className="Content4">
+    <div className="vice_content4">
     
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
             <h2>Instagram & YOUTUBE</h2>
         </div>
         
@@ -185,7 +185,7 @@ const Content4 = () => (
             </div>
         </div>
 
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
             <h2>VICE NEWS</h2>
         </div>
         
@@ -202,7 +202,7 @@ const Content4 = () => (
                 <img src= {img_6} alt="img_6"/>
             </div>
         </div>
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
             <h2>REFINERY 29</h2>
         </div>
         <div className='pair'>
@@ -219,7 +219,7 @@ const Content4 = () => (
             </div>
         </div>
 
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
             <h2>VICE VOICES</h2>
         </div>
         <div className='pair'>
@@ -241,7 +241,7 @@ const Content4 = () => (
 );
 
 const Content5 = () => (
-    <div className="Content5">
+    <div className="vice_content5">
         <p>Because our challenge centered around identity formation and active citizenship, we explored literature in the field of behavioral psychology, critical media studies, and social movement theory</p>
         <div className='sixfig'>
             <div className='ll'>
@@ -272,7 +272,7 @@ const Content5 = () => (
     </div>
 );
 const Content6 = () => (
-    <div className="Content6">
+    <div className="vice_content6">
         <img src= {img_15} alt="img_15"/>
         <div className='pair'>
             <div className='long'>
@@ -286,7 +286,7 @@ const Content6 = () => (
                 <img src= {img_16} alt="img_16"/>
             </div>
         </div>
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
         <h3>THE VICE SYSTEM MAP</h3>
         </div>
         <StLine type='green'/>
@@ -296,13 +296,13 @@ const Content6 = () => (
 );
 
 const Content7 = () => (
-    <div className="Content7">
+    <div className="vice_content7">
         <ImageSlider images={images}/>
     </div>
 );
 
 const Content8 = () => (
-    <div className="Content8">
+    <div className="vice_content8">
         <p>Our insights gave rise to a number of opportunity areas in which to bring valuable change. We categorised them as the following -</p>
         <img src= {img_26} alt="img_26"/>
         <p>We voted on what felt the most impactful and achievable, and narrowed down to 3 main opportunity areas.</p>
@@ -315,9 +315,9 @@ const Content8 = () => (
 );
 
 const Content9 = () => (
-    <div className="Content9">
+    <div className="vice_content9">
         <p>The ideation process was one of zooming out and looking at every avenue that Vice can explore to articulate the above opportunity areas. The process included a simple exercise of putting ourselves in the shoes of a GenZ exploring activism, what would we need from VICE? </p>
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
         <h3>THE WISHING EXERCISE</h3>
         </div>
         <StLine type='green'/>
@@ -333,9 +333,9 @@ const Content9 = () => (
 );
 
 const Content10 = () => (
-    <div className="Content10">
+    <div className="vice_content10">
         <p>This included designing the methodology and execution of solutions in the form of lo-fi prototypes to measure the engagement and impact across different mediums.</p>
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
         <h3>PROTOTYPE 1 - EXPERIENCING ACTIVISM</h3>
         </div>
         <StLine type='green'/>
@@ -353,7 +353,7 @@ const Content10 = () => (
             </ul>
         </p>
 
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
         <h3>PROTOTYPE 2 - INTROSPECTION AS PART OF THE JOURNEY</h3>
         </div>
         <StLine type='green'/>
@@ -377,7 +377,7 @@ const Content10 = () => (
             </div>
         </div>
 
-        <div className='temp_heading'>
+        <div className='temp_heading_vice'>
         <h3>PROTOTYPE 3 - ACTIVIST AVATAR QUIZ</h3>
         </div>
         <StLine type='green'/>
@@ -395,7 +395,7 @@ const Content10 = () => (
 );
 
 const Content11 = () => (
-    <div className="Content11">
+    <div className="vice_content11">
         <img src= {img_39} alt="img_39"/>
         <p className='imagecomment'>Team working board</p>
         <p>The proposed solution is a multi-touchpoint campaign that goes beyond just activism to meet GenZ wherever they are. This enables their identity formation and empowers them to take action with the aim to build on Vice’s already successful infrastructure of content, collaboration and creativity across various platforms. The solution focuses on radical transparency to help instill users' trust in VICE.</p>
@@ -420,7 +420,7 @@ const Content11 = () => (
 );
 
 const Content12 = () => (
-    <div className="Content7">
+    <div className="vice_content7">
         <img src= {img_49} alt="img_49"/>
     </div>
 );

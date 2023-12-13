@@ -48,7 +48,7 @@ const ContentSection = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} className='sub-section'>
           {(item.subheadings.length === 0) ? (
-            <div>
+            <div className={item.heading.replace(/\s+/g, '-').toLowerCase()}>
               <h4
                 id={item.heading.replace(/\s+/g, '-').toLowerCase()}
                 onClick={() => scrollToContent(item.heading)}
@@ -66,7 +66,7 @@ const ContentSection = ({ items }) => {
             </div>
           ) : (
             item.subheadings.map((subheading, subIndex) => (
-              <div key={subIndex}>
+              <div className={subheading.replace(/\s+/g, '-').toLowerCase()} key={subIndex}>
                 <h4 id={subheading.replace(/\s+/g, '-').toLowerCase()}>
                   {subheading}
                 </h4>

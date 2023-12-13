@@ -13,21 +13,22 @@
 .blue-rectangular {
     display: block;
     position: absolute;
-    transform: translateX(-50%);
-    width: 200vw; /* Set the width as desired */
+    left:0;
+    transform: translateX(-10%);
+    width: 110vw; /* Set the width as desired */
     height: 530px; /* Set the height as desired */
     background: #01658B;; /* Set the background color to blue */
     z-index: 0;
     flex-shrink: 0; 
   }
 
-.lightblue-rectangular {
-    position: absolute;
-    top: 2147px;
-    transform: translateX(-50%);
-    width: 200vw; /* Set the width as desired */
-    height: 1485px; /* Set the height as desired */
-    background: #dae3eb;; /* Set the background color to blue */
-    z-index: 0;
-    flex-shrink: 0; 
-  }
+// .key-opportunity{
+//     overflow-x: visible;
+//     background-image: url('../../assets/DAPS/img_5.svg');
+//     background-size:contain;
+//     background-position: center;
+//     background-size: 100vw;
+// }
+.sub-section, .content-container, .content-section{
+    overflow-x: visible;
+}

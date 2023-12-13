@@ -1,4 +1,5 @@
-.img_text, .pair, .vertical_images{
+
+.img_text, .pair-daps, .vertical_images{
     display: flex;
 }
 
@@ -10,8 +11,8 @@
     padding-left: 10px;
 }
 
-.temp_head h2{
-    color: #fff;
+.daps_head, .vertical_textbox h2{
+    color: #000000;
     font-family: Space Grotesk;
     font-size: 46.027px;
     font-style: normal;
@@ -19,18 +20,14 @@
     line-height: 150%; /* 69.041px */
     letter-spacing: -0.506px;
 }
-
-
-
-
+.vertical_textbox{
+    width: 80%;
+}
 .content{
     position: absolute;
     z-index: 1;
-
 }
-
-
-.pair {
+.pair-daps {
     .short{
         width: 35%;
         img{
@@ -41,5 +38,29 @@
     .long{
         width: 65%;
     }
-
 }
+
+.daps_content6, .daps_content7{
+    img {
+        margin: 10px;
+    }
+}
+
+
+
+.fullWidthPoster {
+    display: block;
+    position: relative;
+    width: 176%;
+    transform: translateX(-32%);
+    height: 750px;
+    z-index: 0;
+  }
+
+.fullWidthPoster img {
+    width: 100%; /* Ensure the image takes up the entire width of the container */
+    height: 100%; /* Ensure the image takes up the entire height of the container */
+    object-fit: cover; /* Scale the image to cover the entire container */
+  }
+
+//B4E1FF

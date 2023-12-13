@@ -3,13 +3,15 @@ import './index.scss';
 import Header from '../OtherPageContent/Header';
 import Overview from '../OtherPageContent/Overview';
 import PageAccord from '../OtherPageContent/PageAccordion'
+import BackgroundCover from '../Background';
 // import {Text1, Text2, Text3, Text4, Text5} from '../Text';
 import feat_def from "../../assets/Skills/feat_def.svg"
 import stra_think from "../../assets/Skills/stra_think.svg"
 import ux_design from "../../assets/Skills/ux_design.svg"
 import headerImg from "../../assets/DAPS/header_img.gif"
 import overviewImage from "../../assets/DAPS/overview_img.svg"
-import { Content1, Content2, Content3, Content4, Content5, Content6 } from './content';
+import poster from "../../assets/DAPS/img_5.svg"
+import { Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8 } from './content';
 
 const heading1 = "edtech   |   DIGITAL ARISTOTLE pvt ltd";
 const heading2 = "Creating a holistic offering by introducing a new B2C app that functions in tandem with the existing B2B product";
@@ -43,18 +45,18 @@ const items_data = [
       },
       {
         heading: 'Market Research',
-        subheadings: ['Competitive Analysis','Market Analysis','Opportunity Areas'],
-        content: ["Content5", "Content5", "Content5"]
+        subheadings: ['Competitive Analysis','Key Opportunity'],
+        content: [Content4, Content5]
       },
       {
         heading: 'Strategy',
         subheadings: ['Go-to-Market','Revenue model'],
-        content: ["Content5", "Content5"]
+        content: [Content6, Content7]
       },
       {
         heading: 'Data Pitch',
         subheadings: [],
-        content: ["Content5"]
+        content: [Content8]
       },
   ];
 
@@ -77,7 +79,12 @@ const DAPS = () => {
         <Overview overview_heading="Overview" 
                   overview_para="This project represents my journey from being a Marketing designer to becoming a Product Manager"
                   overview_img={overviewImage}/>
-        <div className="lightblue-rectangular"></div>
+        {/* <div className="lightblue-rectangular"></div> */}
+        {/* <BackgroundCover divClassName="existing-b2b" heightOffset={1.3} bgColor={'#dae3eb'}/>
+        <BackgroundCover divClassName="the-problem" heightOffset={1.3} bgColor={'#dae3eb'}/> */}
+        {/* <BackgroundCover divClassName="b2b-data-value-propositions" bgColor={'#dae3eb'}/> */}
+        <BackgroundCover divClassName="poster-1" bgColor={'#B4E1FF'}/>
+
         <PageAccord items = {items_data}/>
         
     </div>
