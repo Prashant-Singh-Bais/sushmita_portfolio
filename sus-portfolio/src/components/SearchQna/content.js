@@ -34,7 +34,7 @@ import img_31 from '../../assets/SearchQna/img_31.svg'
 
 
 const Content1 = () => (
-    <div className="content1">
+    <div className="qnaContent1">
         <img src= {img_1} alt="img_1"/>
         <p>Following a series of acquisitions, a new division called Learning & Personalization was created with a focus on enhancing engagement. The product leadership conveyed the business need for the following year would be around strengthening the top of the product funnel.</p>
         <img src= {img_2} alt="img_2"/>
@@ -48,7 +48,7 @@ const Content1 = () => (
 );
 
 const Content2 = () => (
-    <div className="Content2">
+    <div className="qnaContent2">
         <p>Using the basic user flow, we broke down the different components of the new feature we were conceptualizing. We presented our initial thinking to different stakeholders - VP of Product from Byju’s core learning app, Head of Sales, Chairman and Founder - and conducted a card sorting activity in order to be able to prioritize feature characteristics and draft a roadmap.</p>
         <img src= {img_5} alt="img_5"/>
         <p>The discussions led us to park the social network concept due to moderation challenges and instead with focussed on -</p>
@@ -68,14 +68,14 @@ const Content2 = () => (
 );
 
 const Content3 = () => (
-    <div className="Content3">
+    <div className="qnaContent3">
         <p>Although the articulation of this concept was unclear, it received enough interest from the stakeholders. From a UX perspective, I was able to incorporate aspects of gamification such as interactive puzzles into the experience.</p>
         <img src= {img_9} alt="img_9"/>
     </div>
 );
 
 const Content4 = () => (
-    <div className="Content4">
+    <div className="qnaContent4">
         <div className='pair'>
             <div className='img_text_vertical'>
                 <p>Image search</p>
@@ -107,8 +107,8 @@ const Content4 = () => (
 );
 
 const Content5 = () => (
-    <div className="Content5">
-        <p>After validating the tech, we moved on to re-designing the interaction for Ask-a-doubt, this time with a focus on improving learning outcomes. A few design decisions that echoed this focus -
+    <div className="qnaContent5">
+        <p>After validating the tech, we moved on to re-designing the interaction for Ask-a-doubt, this time with a focus on improving learning outcomes. A few design decisions that echoed this focus -</p>
             <ul>
             <li>Incorporating the Socratic method (a dialogue between teacher and students. The teacher leads by posing thought-provoking questions. Students actively engage by asking questions of their own) We applied the socratic method to create nested interactions with different layers of learning</li>
             <li>Instead of directly answering a student's query, we offer a 'key' - a crucial hint or insight that aids in resolving their doubt without fully explaining the concept, maintaining the spirit of inquiry and self-discovery.</li>
@@ -135,7 +135,7 @@ const Content5 = () => (
         <ul>
             <li>For questions that were based on memory and concept understanding, student would receive the answer in an interactive true/false format. This would introduce a layer of simplified gamification while bringing the experience of learning by self-discovery to the student</li>
         </ul>
-        </p>
+        
         <div className='vertical_images'>
             <img src= {img_24} alt="img_24"/>
             <img src= {img_25} alt="img_25"/>
@@ -145,7 +145,7 @@ const Content5 = () => (
     </div>
 );
 const Content6 = () => (
-    <div className="Content6">
+    <div className="qnaContent6">
         <p>With consensus on the UX design, we moved on to coordinating the UI design, front-end and back-end development. I used Jira to assign and track tasks.</p>
         <p> The challenge faced by front-end developers was to coordinate vVICE segments with the open steps. We then decided to forego the segmenting of vVICEs.</p>
         <p>Back end developers mostly worked on data management and retrieval. In order to streamline content creation, a tutor-facing tool was designed and shipped. Below is the wireframe -</p>

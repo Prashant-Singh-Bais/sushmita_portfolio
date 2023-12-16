@@ -6,7 +6,7 @@ import Byjus_logo from '../../assets/Byjus_logo.png'
 import ThinkPlace_logo from '../../assets/ThinkPlace_logo.png'
 import VICE_logo from '../../assets/VICE_logo.png'
 import aristotle_logo from '../../assets/aristotle_logo.png'
-import Dummy_GIF from '../../assets/DummyGIF.gif'
+import Dummy_GIF from '../../assets/DummyGIF.jpg'
 import StLines from '../Shapes/StLines'
 import LeftTitle from '../JobTitles/LeftTitle'
 import RightTitle from '../JobTitles/RightTitle'
@@ -101,7 +101,7 @@ const HomeBody = () => (
                     heading="Market Study + Product Strategy" 
                     subheadingBold = "b2b -> b2c journey" 
                     subheading=""
-                    linkPage={"/searchqna"}
+                    linkPage={"/da_strategy"}
                     GIFPath = {Dummy_GIF}
                     />
             <TextBox

@@ -1,8 +1,8 @@
 import './content.scss'
 import img_1 from '../../assets/DAPS/img_1.svg'
 import img_2 from '../../assets/DAPS/img_2.svg'
-import img_3 from '../../assets/DAPS/img_3.svg'
-import img_4 from '../../assets/DAPS/img_4.svg'
+import img_3 from '../../assets/DAPS/img_3.webp'
+import img_4 from '../../assets/DAPS/img_4.webp'
 import img_5 from '../../assets/DAPS/img_5.svg'
 import poster2 from '../../assets/DAPS/cover2.png'
 import poster1 from '../../assets/DAPS/cover1.png'
@@ -37,13 +37,13 @@ import img_31 from '../../assets/SearchQna/img_31.svg'
 
 const Content1 = () => (
     <div className="daps_content1">
-        <p>The existing B2B product - AssessEd was a tool that redefined assessments in 3 key ways.
+        <p>The existing B2B product - AssessEd was a tool that redefined assessments in 3 key ways.</p>
             <ul>
                 <li>Digitized test paper creation</li>
                 <li>Online correction tool</li>
                 <li>Insightful reports</li>
             </ul>
-        </p>
+        
     </div>
 );
 
@@ -52,14 +52,14 @@ const Content2 = () => (
         <p>A lot of information is trapped in schools in analog form. If it were treated as data, it could be analyzed to gain valuable insights into students’ learning and the efficacy of tutoring.</p>
         <div className='pair-daps'>
             <div className='long'>
-                <p>Currently existing information that is not systematized -
+                <p>Currently existing information that is not systematized -</p>
                 <ul>
                 <li>What a child learns at schools</li>
                 <li>Fragmented learning between school, tuition and home.</li>
                 <li>Trends in teaching ie, identifying which topics teachers consider important etc.</li>
                 <li>Students’ learning progress in different areas</li>
                 </ul>
-                </p>
+                
             </div>
             <div className='short'>
                 <img src= {img_1} alt="img_1"/>
@@ -73,13 +73,13 @@ const Content3 = () => (
     <div className="daps_content3">
         <div className='pair-daps'>
             <div className='long'>
-                <p>Data is the new oil. In 2 years of its functioning, AssessEd had partnered with 15+ schools across India and the wealth of data generated on the platform, and its impact if analyzed could be huge - 
+                <p>Data is the new oil. In 2 years of its functioning, AssessEd had partnered with 15+ schools across India and the wealth of data generated on the platform, and its impact if analyzed could be huge -</p> 
                     <ul>
                         <li>24,665 unique users</li>
                         <li>355,727 answer sheets corrected</li>
                         <li>6,344,840 unique interactions including creating test papers, viewing reports, etc</li>
                     </ul>
-                </p>
+                
             </div>
             <div className='short'>
                 <img src= {img_2} alt="img_2"/>
@@ -107,17 +107,9 @@ const Content5 = () => (
         <p>How might we use this existing data to improve learning outcomes?</p>
 
         <div className='poster-1'>
-            <div className='pair-daps'>
-                <div className='short'>
-                    <div className='vertical_textbox'>
-                    <h2>Treating Learning as a data-based process.</h2>
-                    </div>
-                </div>
-                <div className='long'>
-                    <img src= {poster2} alt="poster2"/>
-                </div>
+            <div className='vertical_textbox'>
+                <h2>Treating Learning as a data-based process.</h2>
             </div>
-
         <p><br/><br/><br/></p>
         
         <div className='para_box'>
@@ -130,19 +122,19 @@ const Content5 = () => (
             <p>ANALYZING FOR LEARNING GAPS</p>
             <p>The data allows us to pin-point gaps in a student’s learning and allows for more efficient remediation.</p>
         </div>
-        <div className='fullWidthPoster'>
-            <img src= {poster1} alt="poster1"/>
+        <p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
         </div>
+        <div className='poster-2'>
         <div className='daps_head'>
             <h2>Key Differentiators</h2>
         </div>
         
-        <p>
-            <ul>
-                <li>Data is continuously generated in schools with tests and exams. We do not rely on B2C user data - which is often inconsistent in small numbers - to understand on learning trends etc. At the same time, we’re able to provide value to B2C users, by transferring the B2B insights into the B2C experience.</li>
-                <li> Focusing on remediation and revision to improve learning outcomes, instead of producing expensive video lessons.</li>
-            </ul>
-        </p>
+        
+        <ul>
+            <li>Data is continuously generated in schools with tests and exams. We do not rely on B2C user data - which is often inconsistent in small numbers - to understand on learning trends etc. At the same time, we’re able to provide value to B2C users, by transferring the B2B insights into the B2C experience.</li>
+            <li> Focusing on remediation and revision to improve learning outcomes, instead of producing expensive video lessons.</li>
+        </ul>
+        
         </div>
     </div>
 );
@@ -163,7 +155,7 @@ const Content8 = () => (
     <div className="daps_content8">
         <p>HBR quote </p>
         <p><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
-        <p>DATA MOATS
+        <p>DATA MOATS</p>
             <ul>
                 <li>In-school data</li>
                 <li>Hard to imitate assessment insights</li>
@@ -171,15 +163,15 @@ const Content8 = () => (
                 <li>Data remains relevant as it continuously adapts to changing curriculum</li>
                 <li>Data from one user helps the other, B2B -> B2C</li>
             </ul>
-        </p>
-        <p>NETWORK EFFECTS
+        
+        <p>NETWORK EFFECTS</p>
             <ul>
                 <li>Ability to identify important topics Ability to use a large databank of questions to create a doubt-solving search experience</li>
                 <li>Ability to use a large databank of questions to create a doubt-solving search experience</li>
                 <li>Ability to identify areas of improvement or misconceptions faced by a large group of students</li>
                 <li>Revision on the B2C app and performance on the school test, recorded on the B2B platform, creates cause & effect insights that could be used to improve the B2C recommendation models.</li>
             </ul>
-        </p>
+        
         <div className='daps_head'>
             <h2>Revision and remediation based b2c app </h2>
         </div>

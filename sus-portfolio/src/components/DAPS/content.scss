@@ -21,7 +21,7 @@
     letter-spacing: -0.506px;
 }
 .vertical_textbox{
-    width: 80%;
+    width: 35%;
 }
 .content{
     position: absolute;
@@ -64,3 +64,18 @@
   }
 
 //B4E1FF
+
+[class^="daps_content"] {
+    img{
+        width: 100%;
+    }
+    ul li{
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.552px;
+}
+}

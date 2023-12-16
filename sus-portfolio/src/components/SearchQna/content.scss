@@ -11,11 +11,23 @@
 }
 
 .temp_head h2{
-    color: #fff;
+    color: #000000;
     font-family: Space Grotesk;
     font-size: 46.027px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 69.041px */
     letter-spacing: -0.506px;
+}
+
+[class^="qnaContent"] {
+    ul li{
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.552px;
+}
 }

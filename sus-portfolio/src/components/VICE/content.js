@@ -122,25 +122,25 @@ const Content3 = () => (
         <div className='pair'>
             <div className='long'>
                 <h2>THE GENZ SELF-IDENTITY IS ALWAYS EVOLVING</h2>
-                <p><ul>
+                <ul>
                 <li>"Its good to experiment and always be in a state of learning"</li>
                 <li>"Feeling of belonging to two places on the planet- Growing wings Bringing growth back home Not to lose touch - roots"</li>
-                </ul></p>
+                </ul>
                 <h2>GENZ DIGITAL IDENTITY IS AN EXTENSION OF IRL</h2>
-                <p><ul>
+                <ul>
                 <li>"As long as I’m wearing a hoodie - I got it"</li>
                 <li>"My online life is an extension of my real self - on my social media I'm more perfect but sometimes the weirdness pierces through"</li>
-                </ul></p>
+                </ul>
                 <h2>The VICE BRAND ENDURES</h2>
-                <p><ul>
+                <ul>
                 <li>"It's not trying hard. You can like or dislike it - but you can't ignore it"</li>
                 <li>"I like the way they write. Interesting titles”</li>
-                </ul></p>
+                </ul>
                 <h2>TRUST HINGES who follows who</h2>
-                <p><ul>
+                <ul>
                 <li>"All my friends follow VICE"</li>
                 <li>"There is a level of mistrust, but it sounds official as they have a lot of followers, and I want to believe it."</li>
-                </ul></p>
+                </ul>
             </div>
             <div className='short'>
                 <img src= {img_4} alt="img_4"/>
@@ -163,20 +163,20 @@ const Content4 = () => (
                 <p>Comments on Youtube were more appreciative than those on Instagram, leading us to conclude that consuming long-form content creates better understanding, increases trust and positive engagement.</p>
                 <div className='equal_pair'>
                     <div className='left'>
-                        <p><ul>
+                        <ul>
                             <li>‘Unbiased’</li>
                             <li>‘Daring, Unique’</li>
                             <li>‘Informative’</li>
                             <li>‘Well-produced videos’</li>
-                        </ul></p>
+                        </ul>
                         </div>
                     <div className='right'>
-                        <p><ul>
+                        <ul>
                             <li>‘Trying too hard’</li>
                             <li>‘Where is the credibility?’</li>
                             <li>‘False hype & click bait’</li>
                             <li>‘Unnecessary topics’</li>
-                        </ul></p>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -344,14 +344,14 @@ const Content10 = () => (
         <p>PROTOTYPE<br />
         Lo-fi app screens printed as cards with QR codes for any who wanted to continue reading further + Consent form for user activity data sharing</p>
         <img src= {img_34} alt="img_34"/>
-        <p>WHAT WE LEARNED
+        <p>WHAT WE LEARNED</p>
             <ul>
                 <li>Transparency of data collection increased feelings of comfort.</li>
                 <li>Emotional involvement and curiosity from the reader is necessary.</li>
                 <li>For the ones who want to enquire further, a call to action is essential.</li>
                 <li>Need to make it explicit that educating oneself is also a form of activism</li>
             </ul>
-        </p>
+        
 
         <div className='temp_heading_vice'>
         <h3>PROTOTYPE 2 - INTROSPECTION AS PART OF THE JOURNEY</h3>
@@ -364,13 +364,13 @@ const Content10 = () => (
         
         <div className='equal_pair'>
             <div className='left'>
-                <p>WHAT WE LEARNED
+                <p>WHAT WE LEARNED</p>
                     <ul>
                         <li>IDENTITY BUILDING : Learning about self is equated with pleasure or a form of entertainment.</li>
                         <li>SAFETY : There was no fear of being ‘judged’ for true thoughts CREATING</li>
                         <li>AGENCY : Typing out reflections helped go beyond fleeting thoughts, and improved mindfulness.</li>
                     </ul>
-                </p>
+                
             </div>
             <div className='right'>
                 <img src= {img_35} alt="img_35"/>

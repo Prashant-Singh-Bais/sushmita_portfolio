@@ -8,7 +8,7 @@ import BackgroundCover from '../Background';
 import feat_def from "../../assets/Skills/feat_def.svg"
 import stra_think from "../../assets/Skills/stra_think.svg"
 import ux_design from "../../assets/Skills/ux_design.svg"
-import headerImg from "../../assets/DAPS/header_img.gif"
+import headerImg from "../../assets/DAPS/header_img.jpg"
 import overviewImage from "../../assets/DAPS/overview_img.svg"
 import poster from "../../assets/DAPS/img_5.svg"
 import { Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8 } from './content';
@@ -65,26 +65,20 @@ const DAPS = () => {
 
     return (
     <div className="daps-container"> 
-        <div className="blue-rectangular"></div>
-
+        <div className="daps-header">
         <Header 
-        heading1={heading1}
-        heading2={heading2}
-        header_img={header_img}
-        header_img_directon={header_img_directon}
-        myrole={myrole}
-        skills={skills}
-        collaborators={collaborators}/>
+          heading1={heading1}
+          heading2={heading2}
+          header_img={header_img}
+          header_img_directon={header_img_directon}
+          myrole={myrole}
+          skills={skills}
+          collaborators={collaborators}/>
+        </div>
 
         <Overview overview_heading="Overview" 
                   overview_para="This project represents my journey from being a Marketing designer to becoming a Product Manager"
                   overview_img={overviewImage}/>
-        {/* <div className="lightblue-rectangular"></div> */}
-        {/* <BackgroundCover divClassName="existing-b2b" heightOffset={1.3} bgColor={'#dae3eb'}/>
-        <BackgroundCover divClassName="the-problem" heightOffset={1.3} bgColor={'#dae3eb'}/> */}
-        {/* <BackgroundCover divClassName="b2b-data-value-propositions" bgColor={'#dae3eb'}/> */}
-        <BackgroundCover divClassName="poster-1" bgColor={'#B4E1FF'}/>
-
         <PageAccord items = {items_data}/>
         
     </div>
