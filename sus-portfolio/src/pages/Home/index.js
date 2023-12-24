@@ -1,5 +1,4 @@
-import Ellipse from '../Ellipse';
-import Sidebar from '../Sidebar';
+import Ellipse from '../../components/Ellipse';
 import HomeBody from '../HomeBody';
 import './index.scss';
 

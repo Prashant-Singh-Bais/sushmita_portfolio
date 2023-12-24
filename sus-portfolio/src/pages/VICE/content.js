@@ -1,6 +1,6 @@
 import './content.scss'
-import ImageSlider from '../ImageSlider'
-import StLine from '../Shapes/StLines'
+import ImageSlider from '../../components/ImageSlider'
+import StLine from '../../components/Shapes/StLines'
 import img_1 from '../../assets/VICE/img_1.svg'
 import img_2 from '../../assets/VICE/img_2.svg'
 import img_3 from '../../assets/VICE/img_3.svg'

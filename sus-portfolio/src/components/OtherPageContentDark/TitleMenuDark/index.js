@@ -24,7 +24,7 @@ const TitleMenuDark = ({ items }) => {
     <div className="titlemenuDark"> 
       {items.map((item, index) => (
         <div key={index}>
-          <StLine type='light'/>
+          <StLine type='dark'/>
           <div
             className={`titlemenu-heading ${item.subheadings.length === 0 ? 'clickable-heading' : ''}`}
             onClick={() => toggleItem(index)}
@@ -50,7 +50,7 @@ const TitleMenuDark = ({ items }) => {
           )}
         </div>
       ))}
-      <StLine type='light'/>
+      <StLine type='dark'/>
     </div>
   );
 };

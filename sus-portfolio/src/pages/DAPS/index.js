@@ -1,16 +1,11 @@
-import React, { useRef, useEffect, forwardRef  } from 'react';
+import React from 'react';
 import './index.scss';
-import Header from '../OtherPageContent/Header';
-import Overview from '../OtherPageContent/Overview';
-import PageAccord from '../OtherPageContent/PageAccordion'
-import BackgroundCover from '../Background';
-// import {Text1, Text2, Text3, Text4, Text5} from '../Text';
-import feat_def from "../../assets/Skills/feat_def.svg"
+import Header from '../../components/OtherPageContent/Header';
+import Overview from '../../components/OtherPageContent/Overview';
+import PageAccord from '../../components/OtherPageContent/PageAccordion'
 import stra_think from "../../assets/Skills/stra_think.svg"
-import ux_design from "../../assets/Skills/ux_design.svg"
 import headerImg from "../../assets/DAPS/header_img.jpg"
 import overviewImage from "../../assets/DAPS/overview_img.svg"
-import poster from "../../assets/DAPS/img_5.svg"
 import { Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8 } from './content';
 
 const heading1 = "edtech   |   DIGITAL ARISTOTLE pvt ltd";

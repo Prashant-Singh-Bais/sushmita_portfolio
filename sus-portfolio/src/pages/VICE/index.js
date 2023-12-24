@@ -1,7 +1,7 @@
 import './index.scss';
-import HeaderDark from '../OtherPageContentDark/HeaderDark';
-import OverviewDark from '../OtherPageContentDark/OverviewDark';
-import PageAccordDark from '../OtherPageContentDark/PageAccordionDark'
+import HeaderDark from '../../components/OtherPageContentDark/HeaderDark';
+import OverviewDark from '../../components/OtherPageContentDark/OverviewDark';
+import PageAccordDark from '../../components/OtherPageContentDark/PageAccordionDark'
 
 import feat_def from "../../assets/Skills/feat_def.svg"
 import stra_think from "../../assets/Skills/stra_think.svg"

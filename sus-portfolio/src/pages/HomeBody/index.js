@@ -7,12 +7,12 @@ import ThinkPlace_logo from '../../assets/ThinkPlace_logo.png'
 import VICE_logo from '../../assets/VICE_logo.png'
 import aristotle_logo from '../../assets/aristotle_logo.png'
 import Dummy_GIF from '../../assets/DummyGIF.jpg'
-import StLines from '../Shapes/StLines'
-import LeftTitle from '../JobTitles/LeftTitle'
-import RightTitle from '../JobTitles/RightTitle'
-import TextBox from '../Textbox';
-import {Text1, Text2, Text3, Text4} from '../Text';
-import Accordion from '../Accordion';
+import StLines from '../../components/Shapes/StLines'
+import LeftTitle from '../../components/JobTitles/LeftTitle'
+import RightTitle from '../../components/JobTitles/RightTitle'
+import TextBox from '../../components/Textbox';
+import {Text1, Text2, Text3, Text4} from '../../components/Text';
+import Accordion from '../../components/Accordion';
 
 
 

@@ -1,0 +1,98 @@
+.projectNav-light, .projectNav-dark{
+    display: flex;
+}
+.leftBox-empty, .rightBox-empty{
+    display: flex;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;}
+.leftBox, .rightBox{
+    display: flex;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    .arrowRight, .arrowLeft{
+        width: 20%;
+        display: grid;
+        place-content: center;
+    }
+    .arrowRight {
+        img {
+          transform: rotate(-90deg);
+        }
+      }
+    .arrowLeft{
+        img {
+            transform: rotate(90deg);
+        }
+    }
+    .projectNav-content-left,.projectNav-content-right{
+        width: 80%;
+        display: grid;
+    }
+    .projectNav-content-left{
+        text-align: left;
+        place-content: left;
+    }
+    .projectNav-content-right{
+        text-align: right;
+        place-content: right;
+    }
+    h2{
+        color: #000;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 24px */
+        letter-spacing: -0.368px;
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
+    h3{
+        color: #000;
+        font-family: Space Grotesk;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 60px */
+        letter-spacing: -0.92px;
+        margin-top: 0;
+        margin-bottom: 70px;
+    }
+    &:hover{
+        background-color: #F7F4FF;
+        cursor: pointer;
+        h3{color: #7E41FF;}
+    }
+}
+
+
+.projectNav-dark{
+    background-color: #000;
+    .leftBox-empty, .rightBox-empty{
+        border: 1px solid #fff;
+    }
+    .leftBox, .rightBox{
+        border: 1px solid #fff;
+        .arrowRight, .arrowLeft{
+            filter: invert(1);
+        }
+        h2, h3 {
+            color: #fff
+        }
+        &:hover{
+            background-color: #F7F4FF;
+            cursor: pointer;
+            h3{color: #7E41FF}
+            h2{color: #000000}
+            .arrowRight, .arrowLeft{
+                filter: invert(0);
+            }
+            
+
+        }
+    }
+}
+
+

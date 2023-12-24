@@ -1,7 +1,7 @@
 import './index.scss';
-import Header from '../OtherPageContent/Header';
-import Overview from '../OtherPageContent/Overview';
-import PageAccord from '../OtherPageContent/PageAccordion'
+import Header from '../../components/OtherPageContent/Header';
+import Overview from '../../components/OtherPageContent/Overview';
+import PageAccord from '../../components/OtherPageContent/PageAccordion'
 // import {Text1, Text2, Text3, Text4, Text5} from '../Text';
 import feat_def from "../../assets/Skills/feat_def.svg"
 import stra_think from "../../assets/Skills/stra_think.svg"
@@ -57,6 +57,7 @@ const SearchQna = () => {
         <Overview overview_heading="Overview : Roadmap" overview_img={qna}/>
         <PageAccord items = {items_data}/>
     </div>
+    
     
     )
 }
