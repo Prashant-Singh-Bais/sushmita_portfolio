@@ -7,13 +7,20 @@
     justify-content: space-between;
     z-index: 3;
     left: 0%;
-    top: 2.1%;//194px;
+    top: 194px;
     width: 95%;
 
     .textboxA {
         z-index: 3;
+        display: flex;
         position: relative;
         top: 0%;
+        .smallline{
+            display:grid;
+            align-items: end;
+            padding-bottom: 50px;
+            padding-left: 20px;
+        }
     }
     .textboxB {
         z-index: 3;
@@ -55,8 +62,8 @@
         z-index: 35;
         position: sticky;
         background-color: #ffff;
-        padding-top: 5px;
-        top:0px;
+        padding-top: 50px;
+        top:0;
         h4{
             margin: 0;
         }

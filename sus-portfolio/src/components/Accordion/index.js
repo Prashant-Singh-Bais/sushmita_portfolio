@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 
 const Accordion = ({ title, children }) => {
     const [isClose, setIsOpen] = useState(true);
+    
 
     return (
         <div className="accordion">
@@ -17,3 +18,5 @@ const Accordion = ({ title, children }) => {
 };
 
 export default Accordion;
+
+

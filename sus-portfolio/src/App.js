@@ -52,7 +52,7 @@ function App() {
   return (
     <div className={"app-container-"+mode}>
       <div className='body'>
-        <div className={`${currentPage === '/VICE' ? 'black-sidebar' : 'sidebar'}`}>
+        <div className='sidebar'>
           <Sidebar mode={mode} />
         </div>
         

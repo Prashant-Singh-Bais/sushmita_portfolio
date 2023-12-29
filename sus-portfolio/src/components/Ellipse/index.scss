@@ -1,11 +1,14 @@
 .Ellipse{
-    position: relative;}
+    position: relative;
+    transform: translateX(10px);
+    
+}
 .circle-container {
     position: absolute;
     z-index : 1;
     width: 40%; /* Adjust as needed */
     height: auto; /* Adjust as needed */
-    top: 40px;
+    top: 140px;
     left: 50%;
     animation: rotate 5s linear infinite;
     img {
@@ -30,7 +33,7 @@
     /* Adjust as needed */
     width: 22%;
     height: auto;
-    top: 40px;
+    top: 140px;
     right: 0%;
     img {
         width: 100%;

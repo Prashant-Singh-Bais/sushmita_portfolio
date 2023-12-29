@@ -2,13 +2,14 @@
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .accordion-header {
     z-index: 34;
     position: sticky;
-    top:30px;
-    background-color: #FFFFFF;
+    top:75px;
+    background-color: #fff;
     padding: 10px;
     cursor: pointer;
     user-select: none;
@@ -16,6 +17,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+
 
 .accordion-body {
     padding: 10px;

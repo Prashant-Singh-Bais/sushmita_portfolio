@@ -57,23 +57,23 @@
     <script>
       const loaderContainer = document.querySelector(".loader-container");
       const root = document.querySelector("#root");
-      // window.addEventListener('load',() =>{
-      //   loaderContainer.classList.add('hidden');
-      //   root.classList.add('visible');
-      // })
-      function executeAfterFinish() {
-      const checkReadyState = () => {
-          if (document.readyState === 'complete') {
-              loaderContainer.classList.add('hidden');
-              root.classList.add('visible');
-          } else {
-              setTimeout(checkReadyState, 100); // Check again after 100ms
-          }
-      };
-      setTimeout(checkReadyState, 100); // Initial check after 100ms
-  }
+      window.addEventListener('load',() =>{
+        loaderContainer.classList.add('hidden');
+        root.classList.add('visible');
+      })
+  //     function executeAfterFinish() {
+  //     const checkReadyState = () => {
+  //         if (document.readyState === 'complete') {
+  //             loaderContainer.classList.add('hidden');
+  //             root.classList.add('visible');
+  //         } else {
+  //             setTimeout(checkReadyState, 100); // Check again after 100ms
+  //         }
+  //     };
+  //     setTimeout(checkReadyState, 100); // Initial check after 100ms
+  // }
 
-  executeAfterFinish();
+  // executeAfterFinish();
     </script>
   </body>
 </html>

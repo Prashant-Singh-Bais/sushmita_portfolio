@@ -1,10 +1,10 @@
 .logo-container {
   display: grid;
   justify-content: center;
-  width: 100%;
+  width: 8.53%;
   height : 140px;
   z-index: 999; /* Ensure it's above other elements */
-  position: sticky;
+  position: fixed;
   top: 40px;
   .logo img {
     width: 54px; /* Set width as needed */

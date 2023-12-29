@@ -19,7 +19,12 @@ import Accordion from '../../components/Accordion';
 const HomeBody = () => (
     <div className="Text">
         <div className="textboxA">
-            <Text1 inputText = "Namaste! I’m Sushmita"/>
+            <Text1 inputText = "Namaste! I’m Sushmita   "/>
+            <div className='smallline'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="301" height="2" viewBox="0 0 301 2" fill="none">
+                <path d="M0 1H301" stroke="black"/>
+                </svg>
+            </div>
         </div>
         <div className="textboxB">
             <Text2 inputText = "Product Manager + UX designer shipping innovative solutions anchored in user research and systems thinking."/>
