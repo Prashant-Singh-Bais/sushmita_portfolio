@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import SearchQna from './pages/SearchQna';
 import VICE from './pages/VICE';
 import DAPS from './pages/DAPS';
+import DAPD from './pages/DAPD';
 import ComingSoon from './pages/ComingSoon/index.js';
 import BackgroundCover from './components/Background';
 import Sidebar from './components/Sidebar';
@@ -23,6 +24,7 @@ function App() {
     { path: '/searchqna', element: <SearchQna /> },
     { path: '/VICE', element: <VICE /> },
     { path: '/da_strategy', element: <DAPS /> },
+    { path: '/da_product_design', element: <DAPD /> },
     // Add more routes as needed
   ]);
 
@@ -32,15 +34,12 @@ function App() {
     // Update the currentPage state whenever the location changes
     setCurrentPage(location.pathname);
   }, [location]);
-
   // Determine the mode based on the current page
   const mode = currentPage === '/VICE' ? 'dark' : 'light';
   let previousProject = "";
   let nextProject = "";
   if (currentPage !== '/' ){
-    console.log("currentPage",currentPage)
     const projectData = getNextAndPrevious(currentPage);
-    console.log("projectData",projectData)
     if (projectData.prevData !== null && typeof projectData.prevData === 'object') {
       previousProject = projectData.prevData;
     }
@@ -51,11 +50,10 @@ function App() {
   }
   return (
     <div className={"app-container-"+mode}>
-      <div className='body'>
-        <div className='sidebar'>
+      <div className='sidebar'>
           <Sidebar mode={mode} />
         </div>
-        
+     <div className='body'>
         <div className="page-content">
           {isRouteExist ? (
           <Routes>
@@ -63,6 +61,7 @@ function App() {
             <Route path="/searchqna" element={<SearchQna />} />
             <Route path="/VICE" element={<VICE />} />
             <Route path="/da_strategy" element={<DAPS />} />
+            <Route path="/da_product_design" element={<DAPD />} />
             {/* Add more routes as needed */}
           </Routes>
         ) : (
@@ -79,12 +78,13 @@ function App() {
             </>
           )}
         </div>
-    </div>
-    {currentPage !== '/' && (
-      <div className='otherProject'><ProjectNav leftProject={previousProject} rightProject={nextProject}/></div>
-          )}
-    <div className="footer-container"><Footer/></div>
-    </div>
+        
+        {currentPage !== '/' && (
+          <div className='otherProject'><ProjectNav leftProject={previousProject} rightProject={nextProject}/></div>
+              )}
+        <div className="footer-container"><Footer/></div>
+      </div>
+      </div>
   );
 }
 

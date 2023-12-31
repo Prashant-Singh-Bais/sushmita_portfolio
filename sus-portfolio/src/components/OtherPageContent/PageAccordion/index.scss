@@ -3,7 +3,6 @@
     display: flex;
     overflow:visible;
     // align-items: start;
-    
     .acord-container{
         z-index: 1;
         background-color: #ffffff00;
@@ -12,16 +11,16 @@
         display: flex;
         align-items: flex-start;
         overflow:visible;
+        .sticky{
+            position: sticky;
+            top:150px;
+        }
     }
     .content-container{
         align-items: start;
-        margin-left: 30px;
-        margin-right: 20px;
+        margin-left: 80px;
+        margin-right: 0px;
         width: 70%;
     }
 }
 
-.sticky{
-    position: sticky;
-    top:100px;
-}

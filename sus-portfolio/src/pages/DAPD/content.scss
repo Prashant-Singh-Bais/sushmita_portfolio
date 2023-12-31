@@ -1,0 +1,123 @@
+
+[class^="dapd_content"] {
+    img{
+        width:100%
+    }
+    ul li{
+    color: #000;
+    font-family: Rubik_custom;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.552px;
+}
+    p{
+        color: #000;
+        font-family: Rubik_custom;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 36px */
+        letter-spacing: -0.552px;
+    }
+}
+.img_text, .dapd-pair, .vertical_images{
+    display: flex;
+}
+
+.img_text{
+    align-items: center; 
+}
+
+.vertical_images {
+    width: 100%;
+    img {
+    padding-left: 10px;
+    margin-left: 10px;
+    width:33%;
+    height:auto;   
+    }
+}
+
+.dapd_head h2{
+    color: #000000;
+    font-family: Space Grotesk;
+    font-size: 46.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 69.041px */
+    letter-spacing: -0.506px;
+}
+
+.content{
+    position: absolute;
+    z-index: 1;
+}
+
+.dapd-pair {
+    .short{
+        width: 45%;
+    }
+    .long{
+        width: 55%;
+        img{
+            width:70%;
+            height:auto;
+        }
+        h2, h3{
+            margin:5%;
+            color: var(--DARK, #000);
+            font-family: Rubik_custom;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 150%; /* 60px */
+            letter-spacing: -0.44px;
+
+        }
+        h2{
+            text-decoration-line: underline;
+            margin-bottom: 0;
+        }
+        h3{
+            margin-top: 0;
+        }
+        p{
+            margin:5%;
+        }
+    }
+}
+
+
+
+
+
+.contentImage img{
+    padding-top: 70px;
+}
+.dapd_content_heading h2
+{
+    color: #1E1E1E;
+    font-family: Space Grotesk;
+    font-size: 46.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 69.041px */
+    letter-spacing: -0.506px;
+}
+
+.underline_heading{
+    p{
+        margin-bottom: 0;
+    }
+}
+
+.purple_para p{
+    color: var(--digital-lavender, #7E41FF);
+    font-family: Space Grotesk;
+    font-size: 46.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 69.041px */
+    letter-spacing: -0.506px;}

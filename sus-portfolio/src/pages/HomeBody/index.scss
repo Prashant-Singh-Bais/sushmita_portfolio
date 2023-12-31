@@ -3,11 +3,11 @@
     overflow-y: visible;
     position: relative;
     display: block;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    //flex-wrap: wrap;
+    //justify-content: space-between;
     z-index: 3;
     left: 0%;
-    top: 194px;
+    top: 100px;
     width: 95%;
 
     .textboxA {
@@ -15,11 +15,16 @@
         display: flex;
         position: relative;
         top: 0%;
+        h1{
+            margin-bottom: 0;
+        }
         .smallline{
+            position: initial;
             display:grid;
             align-items: end;
-            padding-bottom: 50px;
+            padding-bottom: 0px;
             padding-left: 20px;
+            transform: translateY(-20px);
         }
     }
     .textboxB {
@@ -27,6 +32,9 @@
         position: relative;
         width: 68%;
         height: auto;
+        h2{
+            margin-top: 40px;
+        }
     }
     .textboxC {
         position: relative;
@@ -41,12 +49,12 @@
         }
         .B2 {
             display: block;
-            width: 20%;
+            width: 18%;
             height: auto;
         }
         .B3 {
             display: block;
-            width: 19%;
+            width: 20%;
             height: auto;
         }
     }
@@ -55,7 +63,8 @@
         display: block;
         width: 19%;
         height: auto;
-        padding-bottom: 211px;
+        padding-top: 100px;
+        padding-bottom: 150px;
 
     }
     .textboxD {
