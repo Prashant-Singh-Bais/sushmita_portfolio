@@ -1,7 +1,7 @@
 import './index.scss'
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import DownArrow from '../../assets/Arrow_image.png'
+import DownArrow from '../../assets/Arrow_image.svg'
 
 
 

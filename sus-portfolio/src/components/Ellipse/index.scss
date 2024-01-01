@@ -6,10 +6,10 @@
 .circle-container {
     position: absolute;
     z-index : 1;
-    width: 48vb; /* Adjust as needed */
+    width: 51%; /* Adjust as needed */
     height: auto; /* Adjust as needed */
-    top: 140px;
-    left: 45%;
+    top: 130px;
+    right: 12%;
     animation: rotate 5s linear infinite;
     img {
         width: 100%;
@@ -31,9 +31,9 @@
     position: absolute;
     z-index : 2;
     /* Adjust as needed */
-    width: 27vb;
+    width: 28%;
     height: auto;
-    top: 140px;
+    top: 130px;
     right: 0%;
     img {
         width: 100%;

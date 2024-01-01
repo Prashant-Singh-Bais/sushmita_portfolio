@@ -1,18 +1,31 @@
 import './index.scss'
-import React, { useState } from 'react';
+import React from 'react';
 
 
-const Accordion = ({ title, children }) => {
-    const [isClose, setIsOpen] = useState(true);
+// const Accordion = ({ title, children }) => {
+//     const [isClose, setIsOpen] = useState(true);
     
 
+//     return (
+//         <div className="accordion">
+//             <div className="accordion-header" onClick={() => setIsOpen(!isClose)}>
+//                 {title}
+//                 <span className="accordion-toggle">{isClose ? '-' : '+'}</span>
+//             </div>
+//             {isClose && <div className="accordion-body">{children}</div>}
+//         </div>
+//     );
+// };
+
+// export default Accordion;
+
+const Accordion = ({ title, children }) => {
     return (
         <div className="accordion">
-            <div className="accordion-header" onClick={() => setIsOpen(!isClose)}>
+            <div className="accordion-header">
                 {title}
-                <span className="accordion-toggle">{isClose ? '-' : '+'}</span>
             </div>
-            {isClose && <div className="accordion-body">{children}</div>}
+            <div className="accordion-body">{children}</div>
         </div>
     );
 };

@@ -1,10 +1,10 @@
 import React from 'react';
 import './index.scss';
-import DownArrow from '../../assets/Arrow_image.png'
-import IDEO_logo from '../../assets/IDEO_logo.png'
-import Byjus_logo from '../../assets/Byjus_logo.png'
-import ThinkPlace_logo from '../../assets/ThinkPlace_logo.png'
-import VICE_logo from '../../assets/vice_logo.png'
+import DownArrow from '../../assets/Arrow_image.svg'
+import IDEO_logo from '../../assets/IDEO_logo.svg'
+import Byjus_logo from '../../assets/Byjus_logo.svg'
+import ThinkPlace_logo from '../../assets/ThinkPlace_logo.svg'
+import VICE_logo from '../../assets/vice_logo.svg'
 import face from '../../assets/face.svg'
 import aristotle_logo from '../../assets/aristotle_logo.png'
 import Dummy_GIF from '../../assets/DummyGIF.jpg'
@@ -19,13 +19,14 @@ import Accordion from '../../components/Accordion';
 
 const HomeBody = () => (
     <div className="Text">
-        <img src={face} alt = "face"/>
+        
         <div className="textboxA">
             <Text1 inputText = "Namaste! I’m Sushmita   "/>
-            <div className='smallline'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="301" height="2" fill="none">
+            <div className='face'>
+                {/* <svg xmlns="http://www.w3.org/2000/svg" width="301" height="2" fill="none">
                 <path d="M0 1H301" stroke="black"/>
-                </svg>
+                </svg> */}
+                <img src={face} alt = "face"/>
             </div>
         </div>
         <div className="textboxB">
@@ -50,7 +51,7 @@ const HomeBody = () => (
         
         <Accordion 
         title={
-        <RightTitle heading="Senior Interaction Designer" description="Learning & Education   |   Health   |   Gen AI" logoimage={IDEO_logo} />
+        <RightTitle heading="Senior Interaction Designer '23" description="Learning & Education   |   Health   |   Gen AI" logoimage={IDEO_logo} />
         }>
             <div className="Box1">
                 <TextBox heading="Reimagining the Diabetic Patient Experience" 

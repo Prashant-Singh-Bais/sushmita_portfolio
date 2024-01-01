@@ -44,7 +44,7 @@ const items_data = [
 
 const SearchQna = () => {
     return (
-    <div className="main-container"> 
+    <div className="qna-container"> 
         <Header 
         heading1={heading1}
         heading2={heading2}

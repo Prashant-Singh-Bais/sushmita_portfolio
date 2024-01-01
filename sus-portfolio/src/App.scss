@@ -6,10 +6,17 @@ $primary-color: #FFFFFF;
   src: url('../public/fonts/rubik-variablefont_wght-webfont.woff') format('woff');
 }
 
+// @font-face {
+//   font-family: 'Space Grotesk';
+//   src: url('../public/fonts/SpaceGrotesk-VariableFont_wght.woff2') format('woff2');
+//   src: url('../public/fonts/SpaceGrotesk-VariableFont_wght.woff') format('woff');
+// }
+
 @font-face {
-  font-family: 'Space Grotesk';
-  src: url('../public/fonts/spacegrotesk-variablefont_wght-webfont.woff2') format('woff2');
-  src: url('../public/fonts/spacegrotesk-variablefont_wght-webfont.woff') format('woff');
+  font-family: 'Space Grotesk-Bold';
+  src: url('../public/fonts/SpaceGrotesk-Bold.woff2') format('woff2');
+  src: url('../public/fonts/SpaceGrotesk-Bold.woff') format('woff');
+  src: url('../public/fonts/SpaceGrotesk-Bold.ttf') format('ttf');
 }
 
 .app-container-light, .app-container-dark{

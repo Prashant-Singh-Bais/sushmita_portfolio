@@ -1,16 +1,26 @@
 .outertextbox{
-    width: 38.9%;
-    height: 491px;
+    width: 38.29%;
+    height: auto;
     min-width: 300px;
+    min-height: 491px;
     border: 1px solid black;
         h2, p {
         margin: 0; // Removes default margin from headings
-        padding: 40px 40px; // Adds vertical padding to the headings
+        padding-left: 22.27%; // Adds vertical padding to the headings
+        padding-right:11.11%
+        }
+        p{
+            padding-top:0;
+            padding-bottom:50px;
+        }
+        h2{
+            padding-bottom:40px;
+            padding-top:50px
         }
 }
 .outertextbox .headingBox h2 {
     color: #000;
-    font-family: Space Grotesk;
+    font-family: Space Grotesk-Bold;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;

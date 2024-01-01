@@ -51,7 +51,7 @@ function App() {
   return (
     <div className={"app-container-"+mode}>
       <div className='sidebar'>
-          <Sidebar mode={mode} />
+          <Sidebar />
         </div>
      <div className='body'>
         <div className="page-content">

@@ -7,24 +7,27 @@
     //justify-content: space-between;
     z-index: 3;
     left: 0%;
-    top: 100px;
-    width: 95%;
+    top: 160px;
+    width: 100%;
 
     .textboxA {
         z-index: 3;
         display: flex;
         position: relative;
         top: 0%;
+        padding-left: 8.53%;
         h1{
             margin-bottom: 0;
         }
-        .smallline{
+        .face{
+            width:50px;
+            height:72.62px;
             position: initial;
             display:grid;
             align-items: end;
             padding-bottom: 0px;
             padding-left: 20px;
-            transform: translateY(-20px);
+            transform: translateY(30px);
         }
     }
     .textboxB {
@@ -32,8 +35,10 @@
         position: relative;
         width: 68%;
         height: auto;
+        padding-left: 8.53%;
         h2{
             margin-top: 40px;
+            font-family: Space Grotesk-Bold;
         }
     }
     .textboxC {
@@ -42,6 +47,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         z-index: 3;
+        padding-left: 8.53%;
         .B1 {
             display: block;
             width: 35%;
@@ -49,7 +55,7 @@
         }
         .B2 {
             display: block;
-            width: 18%;
+            width: 16%;
             height: auto;
         }
         .B3 {
@@ -63,8 +69,9 @@
         display: block;
         width: 19%;
         height: auto;
-        padding-top: 100px;
+        padding-top: 80px;
         padding-bottom: 150px;
+        padding-left: 8.53%;
 
     }
     .textboxD {
@@ -72,6 +79,8 @@
         position: sticky;
         background-color: #ffff;
         padding-top: 50px;
+        padding-left: 8.53%;
+        padding-right: 5%;
         top:0;
         h4{
             margin: 0;
@@ -117,7 +126,8 @@
         position: relative;
         padding-top: 40px;
         padding-bottom: 40px;
-        margin: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         align-items: end;
         text-align: left;
         .outertextbox{
@@ -131,7 +141,6 @@
         display: flex;
         padding-top: 40px;
         padding-bottom: 40px;
-        margin: 0px;
     }
     .Box6 {
         display: block;
@@ -139,7 +148,6 @@
         position: relative;
         padding-top: 40px;
         padding-bottom: 40px;
-        margin: 0px;
         align-items: end;
         text-align: right;
         .outertextbox{
@@ -152,7 +160,8 @@
         position: relative;
         padding-top: 40px;
         padding-bottom: 40px;
-        margin: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         align-items: end;
         text-align: left;
         .outertextbox{
