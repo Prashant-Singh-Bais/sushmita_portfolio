@@ -60,7 +60,9 @@ const HomeBody = () => (
                         linkPage={"/searchqna"}
                         GIFPath = {Dummy_GIF}
                         />
+                <div className='gifBox1'></div>
             </div>
+            
             <div className='Box2'>
                 <TextBox 
                         heading="Public Health Design Research" 

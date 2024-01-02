@@ -3,8 +3,6 @@
     overflow-y: visible;
     position: relative;
     display: block;
-    //flex-wrap: wrap;
-    //justify-content: space-between;
     z-index: 3;
     left: 0%;
     top: 160px;
@@ -48,6 +46,7 @@
         justify-content: space-between;
         z-index: 3;
         padding-left: 8.53%;
+        padding-right: 5%;
         .B1 {
             display: block;
             width: 35%;
@@ -76,7 +75,7 @@
     }
     .textboxD {
         z-index: 35;
-        position: sticky;
+        //position: sticky;
         background-color: #ffff;
         padding-top: 50px;
         padding-left: 8.53%;
@@ -91,12 +90,18 @@
         
     }
     .Box1 {
-        display: block;
+        display: flex;
         z-index: 3;
         position: relative;
         padding-top: 40px;
         padding-bottom: 0px;
         margin: 0px;
+        .gifBox1{
+            flex:1;
+            border-color: #000000;
+            border-width: 1px;
+            border-style: solid;
+        }
     }
     .Box2 {
         
