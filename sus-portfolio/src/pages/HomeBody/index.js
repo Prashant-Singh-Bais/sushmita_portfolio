@@ -14,11 +14,20 @@ import RightTitle from '../../components/JobTitles/RightTitle'
 import TextBox from '../../components/Textbox';
 import {Text1, Text2, Text3, Text4} from '../../components/Text';
 import Accordion from '../../components/Accordion';
+import QnaAnimation from '../../components/Animation/qna';
+import DisAnimation from '../../components/Animation/dis';
+import AriMarketAnimation from '../../components/Animation/ari_m';
+import AriProductAnimation from '../../components/Animation/ari_p';
+import ideo_people_img from '../../assets/animation/ideo_people.webp'
+import board_img from '../../assets/animation/board.webp'
+import computer_img from '../../assets/animation/computer.webp'
+import poster_gif from '../../assets/VICE/img_49.gif'
+import ScrollDetector from './scrollBehaviour';
 
 
 
 const HomeBody = () => (
-    <div className="Text">
+    <div className="homebody">
         
         <div className="textboxA">
             <Text1 inputText = "Namaste! I’m Sushmita   "/>
@@ -57,8 +66,7 @@ const HomeBody = () => (
                 <TextBox heading="Reimagining the Diabetic Patient Experience" 
                         subheadingBold = "UX design" 
                         subheading=" to reposition a global healthcare giant with enhanced patient-centric features and user flows"
-                        linkPage={"/searchqna"}
-                        GIFPath = {Dummy_GIF}
+                        
                         />
                 <div className='gifBox1'></div>
             </div>
@@ -68,59 +76,65 @@ const HomeBody = () => (
                         heading="Public Health Design Research" 
                         subheadingBold = "Service Design" 
                         subheading=" to promote early dementia detection in partnership with the Public Health Dept & State University."
-                        linkPage={"/searchqna"}
-                        GIFPath = {Dummy_GIF}
+                        
                         />
                 <TextBox
                 heading="The Student Writing Experience" 
                         subheadingBold = "Strategy + UX design" 
                         subheading=" to test and launch newly conceptualized Gen AI based writing features, with a focus on learner inclusivity."
-                        linkPage={"/searchqna"}
-                        GIFPath = {Dummy_GIF}
+                        
                         />
             </div>
         </Accordion>
-        {/* <StLines/> */}
         <Accordion title={<LeftTitle heading="Design Product Manager  ‘21" description="Education technology   |   Learning & Personalisation" logoimage={Byjus_logo}/>}>
             <div className="Box3">
+                
                 <TextBox heading="Search Q&A Feature definition + UX Design " 
                         subheadingBold = "From PRD to test & launch" 
                         subheading=" in 6 months"
                         linkPage={"/searchqna"}
-                        GIFPath = {Dummy_GIF}
+                        SelectedAnimation = {QnaAnimation}
+                        componentName = 'gifBox2'
                         />
+                <div className='gifBox2'></div>
             </div>
             <div className="Box4">
                 <TextBox heading="Distractors Feature definition + UX Design" 
                         subheadingBold = "Pedagogy + Strategy" 
                         subheading=" to track and improve learning outcomes"
                         linkPage={"/searchqna"}
-                        GIFPath = {Dummy_GIF}
+                        SelectedAnimation = {DisAnimation}
+                        componentName = 'gifBox3'
                         />
+                <div className='gifBox3'></div>
             </div>
         </Accordion>
         
-        
-        {/* <StLines/> */}
         <Accordion 
         title={
         <LeftTitle heading="Product Manager  ‘19" description="Education technology   |   Start-up 0 to 1" logoimage={aristotle_logo}/>
         }>
-            <div className='Box5'>
-            <TextBox 
-                    heading="Market Study + Product Strategy" 
-                    subheadingBold = "b2b -> b2c journey" 
-                    subheading=""
-                    linkPage={"/da_strategy"}
-                    GIFPath = {Dummy_GIF}
-                    />
-            <TextBox
-            heading="Product UX Design + Management" 
-                    subheadingBold = "Design -> Launch journey" 
-                    subheading=""
-                    linkPage={"/searchqna"}
-                    GIFPath = {Dummy_GIF}
-                    />
+            <div className='Box5A'>
+                <TextBox 
+                        heading="Market Study + Product Strategy" 
+                        subheadingBold = "b2b -> b2c journey" 
+                        subheading=""
+                        linkPage={"/da_strategy"}
+                        SelectedAnimation = {AriMarketAnimation}
+                        componentName = 'gifBox4'
+                        />
+                <div className='gifBox4'></div>
+            </div>
+            <div className='Box5B'>
+                <TextBox
+                heading="Product UX Design + Management" 
+                        subheadingBold = "Design -> Launch journey" 
+                        subheading=""
+                        linkPage={"/da_product_design"}
+                        SelectedAnimation = {AriProductAnimation}
+                        componentName = 'gifBox5'
+                        />
+                <div className='gifBox5'></div>
             </div>
         </Accordion>
         
@@ -130,6 +144,14 @@ const HomeBody = () => (
         <RightTitle heading="Strategic Designer  ‘22" description="Summer internship   |    Workshop design    |    Futuring" logoimage={ThinkPlace_logo}/>
         }>
             <div className="Box6">
+                <div className='gifBox6'>
+                    <div className='people'>
+                        <img src = {ideo_people_img} alt="people"/>
+                    </div>
+                    <div className='board'>
+                        <img src = {board_img} alt="board"/>
+                    </div>
+                </div>
                 <TextBox heading="Co-designing the Future of Volunteering in Australia" 
                         subheadingBold = "" 
                         subheading=""
@@ -150,6 +172,14 @@ const HomeBody = () => (
                         linkPage={"/VICE"}
                         GIFPath = {Dummy_GIF}
                         />
+                <div className='gifBox7'>
+                    <div className='computer'>
+                        <img src = {computer_img} alt="computer"/>
+                    </div>
+                    <div className='poster_gif'>
+                        <img src = {poster_gif} alt="poster_gif"/>
+                    </div>
+                </div>
             </div>
         </Accordion>
         {/* <StLines/> */}

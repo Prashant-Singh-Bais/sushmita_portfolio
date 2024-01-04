@@ -1,12 +1,13 @@
 
-.Text {
+.homebody {
     overflow-y: visible;
     position: relative;
     display: block;
     z-index: 3;
     left: 0%;
-    top: 160px;
+    margin-top: 160px;
     width: 100%;
+    height: auto;
 
     .textboxA {
         z-index: 3;
@@ -98,9 +99,6 @@
         margin: 0px;
         .gifBox1{
             flex:1;
-            border-color: #000000;
-            border-width: 1px;
-            border-style: solid;
         }
     }
     .Box2 {
@@ -113,62 +111,126 @@
         margin: 0px;
     }
     .Box3 {
-        display: block;
+        display: flex;
         z-index: 3;
         position: relative;
         padding-top: 40px;
         padding-bottom: 40px;
         margin: 0px;
-        align-items: end;
+        flex-direction: row-reverse;
         text-align: right;
+        .gifBox2{
+            display: flex;
+            flex:1;
+            align-items: center;
+        }
         .outertextbox{
             display: inline-block;
         }
     }
     .Box4 {
-        display: block;
+        display: flex;
         z-index: 3;
         position: relative;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-top: 40px;
-        margin-bottom: 40px;
-        align-items: end;
+        margin-bottom: 100px;
+        // align-items: end;
         text-align: left;
+        .gifBox3{
+            display: flex;
+            flex:1;
+            align-items: center;
+            
+        }
         .outertextbox{
             display: inline-block;
         }
     }
 
-    .Box5 {   
+    .Box5A {   
         z-index: 3;
         position: relative;
         display: flex;
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
+        .gifBox4{
+            display: flex;
+            flex:1;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+    }
+    .Box5B {   
+        z-index: 3;
+        position: relative;
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 100px;
+        .gifBox5{
+            display: flex;
+            flex:1;
+            align-items: center;
+        }
     }
     .Box6 {
-        display: block;
+        display: flex;
         z-index: 3;
         position: relative;
         padding-top: 40px;
-        padding-bottom: 40px;
-        align-items: end;
+        padding-bottom: 150px;
         text-align: right;
+        .gifBox6{
+            display: flex;
+            flex:1;
+            align-items: center;
+            flex-direction: column;
+            .people img{
+                width: 66%;
+                height:auto;
+                transform: translateX(-40%);
+            }
+            .board img{
+                width: 100%;
+                height:auto;
+                transform: translateX(50%);
+            }
+            
+        }
         .outertextbox{
             display: inline-block;
+            max-height: 550px;
+            
         }
     }
     .Box7 {
-        display: block;
+        display: flex;
         z-index: 3;
         position: relative;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-top: 40px;
-        margin-bottom: 40px;
-        align-items: end;
+        margin-bottom: 200px;
         text-align: left;
+        .gifBox7{
+            //display: flex;
+            flex:1;
+            align-items: center;
+            .computer img{
+                width: 40%;
+                height:auto;
+                position: absolute;
+                left: 45%;
+            }
+            .poster_gif img{
+                width: 37%;
+                height:auto;
+                position: absolute;
+                left: 46.5%;
+                top: 11%;
+            }
+        }
         .outertextbox{
             display: inline-block;
         }

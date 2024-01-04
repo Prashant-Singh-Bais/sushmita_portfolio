@@ -1,0 +1,20 @@
+.ari-image-container {
+    position: relative;
+    width: 75%; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    left: 10%;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        opacity: 1;
+      }
+  }
+  
+  .ariMimage{
+    z-index: 40;
+  }
+  
+  

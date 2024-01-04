@@ -1,0 +1,14 @@
+.animation1 {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: rotate('-20deg');
+    
+}
+
+.animation1 img {
+    width: 25%;
+    height: auto; /* Set image height to 100% of its parent's height */
+    
+}
