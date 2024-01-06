@@ -4,13 +4,13 @@ import Header from '../../components/OtherPageContent/Header';
 import Overview from '../../components/OtherPageContent/Overview';
 import PageAccord from '../../components/OtherPageContent/PageAccordion'
 import stra_think from "../../assets/Skills/stra_think.svg"
-import headerImg from "../../assets/DAPS/header_img.jpg"
+import headerImg from "../../assets/DAPS/header_img.gif"
 import overviewImage from "../../assets/DAPS/overview_img.svg"
 import { Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8 } from './content';
 
 const heading1 = "edtech   |   DIGITAL ARISTOTLE pvt ltd";
 const heading2 = "Creating a holistic offering by introducing a new B2C app that functions in tandem with the existing B2B product";
-const header_img = headerImg; // Replace with actual image path
+const header_img = headerImg;
 const header_img_directon = "below"; // or "below"
 const myrole = "PRODUCT MANAGER (EARLY CAREER) WORKING CLOSELY WITH THE FOUNDER TO RESEARCH, STRATEGIZE AND ARTICULATE CORE VALUE PROPOSITIONS";
 const skills = {

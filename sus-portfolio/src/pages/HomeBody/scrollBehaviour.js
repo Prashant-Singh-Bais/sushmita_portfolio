@@ -1,36 +1,39 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const ScrollDetector = ({ children }) => {
-  const targetRef = useRef(null);
+const ScrollChecker = ({ classtosee, children }) => {
   const [isVisible, setIsVisible] = useState(false);
+  const elementRef = useRef(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (targetRef.current) {
-        const element = targetRef.current;
-        const { top, bottom } = element.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5, // Change this threshold as needed
+      }
+    );
 
-        // Check if the element is in the middle or at the end of the viewport
-        if (top > 0 && bottom < windowHeight) {
-          setIsVisible(true);
-        } else {
-          setIsVisible(false);
-        }
+    const currentRef = elementRef.current;
+
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  }, [elementRef]);
 
   return (
-    <div ref={targetRef}>
-      {children(isVisible)}
+    <div ref={elementRef} className={`gif${classtosee}`}>
+      {isVisible && children}
     </div>
   );
 };
 
-export default ScrollDetector;
+export default ScrollChecker;

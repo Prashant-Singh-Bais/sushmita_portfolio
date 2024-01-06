@@ -23,19 +23,19 @@ function getNextAndPrevious(currentUrl) {
         },
         {
             "projectName": "Distractors Feature definition + UX Design",
-            "url": "/byjus2",
-            "compony": "byjus"
+            "url": "/distractors",
+            "compony": "DA"
         },
         {
             "projectName": "Market Study + Product Strategy",
             "url": "/da_strategy",
-            "compony": "byjus"
+            "compony": "DA"
     
         },
         {
             "projectName": "Product UX Design + Management",
-            "url": "/DAPS2",
-            "compony": "byjus"
+            "url": "/da_product_design",
+            "compony": "DA"
     
         },
         {

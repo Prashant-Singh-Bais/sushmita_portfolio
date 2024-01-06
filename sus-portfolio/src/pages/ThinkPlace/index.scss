@@ -1,0 +1,114 @@
+.thinkplace-container{
+    padding-bottom: 100px;
+    overflow-y: visible;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    .thinkplace-header, .thinkplace-overview, .thinkplace-pageaccord{
+        margin-left: 8% ;
+        margin-right: 4% ;
+    }
+    .thinkplace-pageaccord{
+        margin-left: 3% ;
+    }
+
+}
+.thinkplace-background-box-1{
+    display:flex;
+    align-items: center;
+    z-index: 0;
+    top:0;
+    width: 100%;
+    height: auto;
+    min-height: 534px;
+    background: rgba(252, 35, 100, 0.24);
+    .thinkplace-headerholder{
+        z-index: 1;
+        width: 65%;
+        height: auto;
+        padding-left:7.93%;
+        padding-top:200px;
+        h1{
+            color: var(--digital-lavender, #7E41FF);
+            font-family: Rubik_custom;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 150%; /* 36px */
+            letter-spacing: -0.552px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+        h2{
+            color: #1E1E1E;
+            font-family: Space Grotesk-Bold;
+            font-size: 46.027px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 69.041px */
+            letter-spacing: -0.506px;
+        }
+    }
+    .logoholder{
+        display: flex;
+        flex-direction: column;
+        padding-top: 267px;
+        padding-left: 3%;
+        right: 6.15%;
+        width: 15.5%;
+        height: auto;
+        .logoimage img{
+            width: 100%;
+            height: auto;
+            border-radius: 0;
+        }
+        .site{
+            display: flex;
+            align-items: center;
+            a{
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 150%; /* 24px */
+                letter-spacing: -0.368px;
+                text-decoration-line: underline;
+            }
+            img{
+                width: 15.454px;
+                height: 15.454px;
+                border-radius: 0;
+            }
+        }
+        
+    }
+    
+}
+
+
+
+.Header, .overview, .pa-container{
+    z-index: 1;
+}
+
+.sub-section, .content-container, .content-section{
+    overflow-x: visible;
+}
+
+.thinkplace-header .Header .header-content.header-content-column .header-texts,
+.Header .describe_container .collaborators{ 
+    h2{
+        color: var(--7-e-41-ff, #FFF);
+    }
+    h1{
+        color: var(--7-e-41-ff, #000);
+    }
+    ul{
+        color: var(--7-e-41-ff, #000);
+    }
+}
+
+.thinkplace-overview{
+    img{
+        border-radius: 2%;
+    }
+}

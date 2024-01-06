@@ -2,12 +2,11 @@ import './index.scss';
 import Header from '../../components/OtherPageContent/Header';
 import Overview from '../../components/OtherPageContent/Overview';
 import PageAccord from '../../components/OtherPageContent/PageAccordion'
-// import {Text1, Text2, Text3, Text4, Text5} from '../Text';
 import feat_def from "../../assets/Skills/feat_def.svg"
 import stra_think from "../../assets/Skills/stra_think.svg"
 import ux_design from "../../assets/Skills/ux_design.svg"
 import iphone from "../../assets/iPhones.svg"
-import qna from "../../assets/qna.svg"
+import qna from "../../assets/qna.webp"
 import { Content1, Content2, Content3, Content4, Content5, Content6 } from './content';
 
 const heading1 = "edtech   |   byju’s think n learn pvt ltd  ";

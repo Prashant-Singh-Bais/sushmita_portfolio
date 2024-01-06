@@ -7,14 +7,13 @@ import SearchQna from './pages/SearchQna';
 import VICE from './pages/VICE';
 import DAPS from './pages/DAPS';
 import DAPD from './pages/DAPD';
+import ThinkPlace from './pages/ThinkPlace/index.js';
 import ComingSoon from './pages/ComingSoon/index.js';
 import BackgroundCover from './components/Background';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import ProjectNav from './components/OtherProjectNav';
 import daps_image from './assets/DAPS/img_5.png';
-import QnaAnimation from './components/Animation/qna/index.js';
-import DisAnimation from './components/Animation/dis/index.js';
 
 const getNextAndPrevious = require('./ProjectListManager.js');
 
@@ -27,7 +26,8 @@ function App() {
     { path: '/VICE', element: <VICE /> },
     { path: '/da_strategy', element: <DAPS /> },
     { path: '/da_product_design', element: <DAPD /> },
-    { path: '/test', element: <DisAnimation /> },
+    { path: '/thinkplace', element: <ThinkPlace /> },
+    //{ path: '/test', element: <DisAnimation /> },
     // Add more routes as needed
   ]);
 
@@ -65,7 +65,7 @@ function App() {
             <Route path="/VICE" element={<VICE />} />
             <Route path="/da_strategy" element={<DAPS />} />
             <Route path="/da_product_design" element={<DAPD />} />
-            <Route path="/test" element={<DisAnimation />} />
+            <Route path="/thinkplace" element={<ThinkPlace />} />
             {/* Add more routes as needed */}
           </Routes>
         ) : (

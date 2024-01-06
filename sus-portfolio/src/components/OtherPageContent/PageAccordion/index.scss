@@ -4,6 +4,7 @@
     overflow:visible;
     // align-items: start;
     .acord-container{
+        width: 24%;
         z-index: 1;
         background-color: #ffffff00;
         margin-top: 20px;
@@ -14,13 +15,14 @@
         .sticky{
             position: sticky;
             top:150px;
+            width:100%
         }
     }
     .content-container{
         align-items: start;
         margin-left: 80px;
         margin-right: 0px;
-        width: 70%;
+        flex:1;
     }
 }
 
