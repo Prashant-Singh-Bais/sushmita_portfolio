@@ -118,8 +118,8 @@
         display: flex;
         z-index: 3;
         position: relative;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 80px;
+        padding-bottom: 200px;
         margin: 0px;
         flex-direction: row-reverse;
         text-align: right;
@@ -193,20 +193,19 @@
             flex:1;
             align-items: center;
             flex-direction: column;
+            animation:  moveleft-people 1s ease;
+            animation-timeline: view();
             .people img{
                 width: 66%;
                 height:auto;
                 transform: translateX(-40%);
-                transition: transform 1s ease;
+                padding-bottom: 10px;
             }
             .board img{
                 width: 100%;
                 height:auto;
-                transform: translateX(30%);
-                transition: transform 1s ease;
-                
+                transform: translateX(30%);  
             }
-            
         }
         .outertextbox{
             display: inline-block;
@@ -227,21 +226,26 @@
             //display: flex;
             flex:1;
             align-items: center;
+            .screen{
+                
             .computer img{
                 width: 40%;
                 height:auto;
                 position: absolute;
                 left: 45%;
-                transition: position 1s ease;
+                
             }
             .poster_gif img{
-                width: 37%;
+                width: 38%;
                 height:auto;
                 position: absolute;
-                left: 46.5%;
-                top: 11%;
-                transition: position 1s ease;
+                left: 46%;
+                top: 10%;
+                animation:  appear 1s ease-in;
+                animation-timeline: view();
+                animation-range-end: 500px;
             }
+        }
         }
         .outertextbox{
             display: inline-block;
@@ -252,4 +256,32 @@
 }
 
 
+@keyframes moveright-board {
+    from {
+        scale:0.9;
+        opacity: 0.5;
+    }
+    to {
+        scale:1;
+        opacity: 1;
+    }}
+@keyframes moveleft-people {
+    from {
+        scale:0.9;
+        opacity: 0.5;
+    }
+    to {
+        scale:1;
+        opacity: 1;
+    }}
 
+@keyframes appear {
+    from {
+        opacity: 0.8;
+        scale:0;
+    }
+    to {
+        opacity: 1;
+        scale:1;
+    }
+}

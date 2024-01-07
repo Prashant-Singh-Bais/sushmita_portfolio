@@ -5,11 +5,18 @@ import './index.scss';
 const Home = () => {
     return (
         <div className="main-container">
+            <div className='behind-ellipse'>
                 <Ellipse />
-                <HomeBody/>
+            </div>
+            <div className="homebody-container">
+                    <HomeBody/>
+            </div>
+        
         </div>
+
     )
 }
+
 
 
 

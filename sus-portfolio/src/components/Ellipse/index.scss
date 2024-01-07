@@ -1,65 +1,135 @@
-.Ellipse{
-    position: relative;
-    transform: translateX(10px);
-    margin-top: 130px;
-    
-}
-.circle-container {
-    position: absolute;
-    z-index : 1;
-    width: 45%; /* Adjust as needed */
-    height: auto; /* Adjust as needed */
-    top:0px;
-    right: 12%;
-    
-    animation: moveleft 2s ease-in;
-    //animation-timeline: view();
-    img {
-        width: 100%;
-        height: 100%;
-        opacity: 100%;
-        display: block; 
-        animation: rotate 5s linear infinite;
+// .Ellipse{
+//     position: relative;
+//     display: block;
+//     margin-top: 130px;
+//     width: 100%;
+//     height: auto;
+//     .circle-container {
+//         position: absolute;
+//         z-index : 1;
+//         width: 45%; /* Adjust as needed */
+//         height: auto; /* Adjust as needed */
+//         top:0px;
+//         right: 12%;
         
-    }
+//         animation: moveleft 2s ease-in;
+//         //animation-timeline: view();
+//         img {
+//             width: 100%;
+//             height: 100%;
+//             opacity: 100%;
+//             display: block; 
+//             animation: rotate 5s linear infinite;
+            
+//         }
+    
+//         @keyframes rotate {
+//             from {
+//                 transform: rotate(0deg);
+//             }
+//             to {
+//                 transform: rotate(360deg);
+//             }
+//         }
+//         @keyframes moveleft {
+//             from {
+//                 right: 5%;
+//             }
+//             to {
+//                 right: 12%;
+//             }
+//         }
+//     }
+//     .static-circle {
+//         position: absolute;
+//         z-index : 2;
+//         /* Adjust as needed */
+//         width: 45%;
+//         height: auto;
+//         top: 0px;
+//         right: -15%;
+//         animation: moveright 2s ease-in ;
+//         img {
+//             width: 100%;
+//             height: 100%;
+//             display: block; /* Removes any extra space inside the container */
+//         }
+//         @keyframes moveright {
+//             from {
+//                 right: 5%;
+//             }
+//             to {
+//                 right: -15%;
+//             }
+//         }
+//     }
+    
+// }
 
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg);
+.Ellipse {
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .static-circle {
+        position: absolute;
+        z-index: 2;
+        width: 45%;
+        height: auto;
+        top: 0px;
+        right: -15%;
+        animation: moveright 2s ease-in;
+        img {
+            width: 100%;
+            display: block;
         }
     }
-    @keyframes moveleft {
-        from {
-            right: 5%;
-        }
-        to {
-            right: 12%;
+    .circle-container {
+        position: absolute;
+        z-index: 1;
+        width: 45%;
+        height: auto;
+        top: 0px;
+        right: 12%;
+        animation: moveleft 2s ease-in, rotate 5s linear infinite;
+        img {
+            width: 100%;
+            opacity: 100%;
+            display: block;
         }
     }
 }
-.static-circle {
-    position: absolute;
-    z-index : 2;
-    /* Adjust as needed */
-    width: 45%;
-    height: auto;
-    top: 0px;
-    right: -15%;
-    animation: moveright 2s ease-in ;
-    img {
-        width: 100%;
-        height: 100%;
-        display: block; /* Removes any extra space inside the container */
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
     }
-    @keyframes moveright {
-        from {
-            right: 5%;
-        }
-        to {
-            right: -15%;
-        }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes moveleft {
+    from {
+        right: 5%;
+    }
+    to {
+        right: 12%;
+    }
+}
+
+
+
+
+@keyframes moveright {
+    from {
+        right: 5%;
+    }
+    to {
+        right: -15%;
     }
 }

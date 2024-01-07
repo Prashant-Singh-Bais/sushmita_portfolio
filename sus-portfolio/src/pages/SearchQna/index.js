@@ -5,7 +5,7 @@ import PageAccord from '../../components/OtherPageContent/PageAccordion'
 import feat_def from "../../assets/Skills/feat_def.svg"
 import stra_think from "../../assets/Skills/stra_think.svg"
 import ux_design from "../../assets/Skills/ux_design.svg"
-import iphone from "../../assets/iPhones.svg"
+import iphone from "../../assets/iphone.png"
 import qna from "../../assets/qna.webp"
 import { Content1, Content2, Content3, Content4, Content5, Content6 } from './content';
 

@@ -1,8 +1,7 @@
-
-.pair img {
-    width: 100%;
-}
-[class^="qnaContent"] {
+[class^="distractorsContent"] {
+    img{
+        width:100%
+    }
     p{
         color: #000;
         font-family: Rubik_custom;
@@ -22,7 +21,6 @@
     letter-spacing: -0.552px;
 }
 }
-
 .img_text, .pair, .vertical_images{
     display: flex;
 }
@@ -44,4 +42,9 @@
     line-height: 150%; /* 69.041px */
     letter-spacing: -0.506px;
 }
+
+.pair img{
+    width: 40%;
+}
+
 

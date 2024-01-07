@@ -1,5 +1,6 @@
 import './index.scss'
 import React from 'react';
+import StLine from '../Shapes/StLines';
 
 
 // const Accordion = ({ title, children }) => {

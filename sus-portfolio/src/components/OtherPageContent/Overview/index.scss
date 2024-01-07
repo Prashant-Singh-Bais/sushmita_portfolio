@@ -25,9 +25,9 @@
     }
 
     .overview_img img {
-        padding: 5px;
+        width: 95%;
+        margin: 10px;
         display: block;
-        max-width: 100%; /* Maximum width of 100% of its container */
         height: auto; /* Height is set to auto to maintain aspect ratio */
     }
 }

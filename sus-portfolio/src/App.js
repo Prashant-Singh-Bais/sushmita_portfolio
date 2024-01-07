@@ -9,6 +9,7 @@ import DAPS from './pages/DAPS';
 import DAPD from './pages/DAPD';
 import ThinkPlace from './pages/ThinkPlace/index.js';
 import ComingSoon from './pages/ComingSoon/index.js';
+import Distractors from './pages/Distractors/index.js';
 import BackgroundCover from './components/Background';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
@@ -27,6 +28,7 @@ function App() {
     { path: '/da_strategy', element: <DAPS /> },
     { path: '/da_product_design', element: <DAPD /> },
     { path: '/thinkplace', element: <ThinkPlace /> },
+    { path: '/distractors', element: <Distractors /> },
     //{ path: '/test', element: <DisAnimation /> },
     // Add more routes as needed
   ]);
@@ -66,6 +68,7 @@ function App() {
             <Route path="/da_strategy" element={<DAPS />} />
             <Route path="/da_product_design" element={<DAPD />} />
             <Route path="/thinkplace" element={<ThinkPlace />} />
+            <Route path="/distractors" element={<Distractors />} />
             {/* Add more routes as needed */}
           </Routes>
         ) : (

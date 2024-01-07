@@ -19,7 +19,7 @@ import AriMarketAnimation from '../../components/Animation/ari_m';
 import AriProductAnimation from '../../components/Animation/ari_p';
 import ideo_people_img from '../../assets/animation/ideo_people.webp'
 import board_img from '../../assets/animation/board.webp'
-import computer_img from '../../assets/animation/computer.webp'
+import computer_img from '../../assets/animation/computer.png'
 import poster_gif from '../../assets/VICE/img_49.gif'
 import ideo1 from '../../assets/animation/ideo1.webp'
 import ideo2 from '../../assets/animation/ideo2.gif'
@@ -152,32 +152,23 @@ const HomeBody = () => {
             </div>
         </Accordion>
         
-        {/* <StLines/> */}
         <Accordion 
         title={
         <RightTitle heading="Strategic Designer  ‘22" description="Summer internship   |    Workshop design    |    Futuring" logoimage={ThinkPlace_logo}/>
         }>
             <div className="Box6">
-                {/* <div className='gifBox6'>
+                <div className='gifBox6'>
                     <div className='people'>
                         <img src = {ideo_people_img} alt="people"/>
                     </div>
                     <div className='board'>
                         <img src = {board_img} alt="board"/>
                     </div>
-                </div> */}
-                <ScrollChecker classtosee="Box6">
-                    <div className='people'>
-                        <img src = {ideo_people_img} alt="people"/>
-                    </div>
-                    <div className='board'>
-                        <img src = {board_img} alt="board"/>
-                    </div>
-                </ScrollChecker>
+                </div>
                 <TextBox heading="Co-designing the Future of Volunteering in Australia" 
                         subheadingBold = "" 
                         subheading=""
-                        linkPage={"/searchqna"}
+                        linkPage={"/thinkplace"}
                         />
             </div>
         </Accordion>
@@ -191,22 +182,16 @@ const HomeBody = () => {
                         subheading=" leading to a multi-channel campaign design."
                         linkPage={"/VICE"}
                         />
-                {/* <div className='gifBox7'>
-                    <div className='computer'>
-                        <img src = {computer_img} alt="computer"/>
+                <div className='gifBox7'>
+                    <div className='screen'>
+                        <div className='computer'>
+                            <img src = {computer_img} alt="computer"/>
+                        </div>
+                        <div className='poster_gif'>
+                            <img src = {poster_gif} alt="poster_gif"/>
+                        </div>
                     </div>
-                    <div className='poster_gif'>
-                        <img src = {poster_gif} alt="poster_gif"/>
-                    </div>
-                </div> */}
-                <ScrollChecker classtosee="Box7">
-                    <div className='computer'>
-                        <img src = {computer_img} alt="computer"/>
-                    </div>
-                    <div className='poster_gif'>
-                        <img src = {poster_gif} alt="poster_gif"/>
-                    </div>
-                </ScrollChecker>
+                </div>
                 
             </div>
         </Accordion>

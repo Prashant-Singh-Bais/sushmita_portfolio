@@ -1,9 +1,20 @@
 .main-container {
+    position: relative;
     width: 100%;
-    //padding-left: 8.53%;
     padding-bottom: 100px;
     height: auto;
     scroll-behavior: auto; 
     overflow-y: visible;
+    //overflow-x: hidden;
+    .behind-ellipse{
+        width: 100%;
+        position: absolute;
+        top:0;
+        overflow-y: scroll;
+        
+    }
+    .homebody-container{
+        display: block;
+    }
 }
 

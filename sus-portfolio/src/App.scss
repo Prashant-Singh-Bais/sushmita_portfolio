@@ -6,12 +6,6 @@ $primary-color: #FFFFFF;
   src: url('../public/fonts/rubik-variablefont_wght-webfont.woff') format('woff');
 }
 
-// @font-face {
-//   font-family: 'Space Grotesk';
-//   src: url('../public/fonts/SpaceGrotesk-VariableFont_wght.woff2') format('woff2');
-//   src: url('../public/fonts/SpaceGrotesk-VariableFont_wght.woff') format('woff');
-// }
-
 @font-face {
   font-family: 'Space Grotesk-Bold';
   src: url('../public/fonts/SpaceGrotesk-Bold.woff2') format('woff2');
@@ -91,5 +85,23 @@ $primary-color: #FFFFFF;
     position: inherit;
     display: block; /* Initially hide the footer */
     /* Additional styles for your footer */
+  }
+}
+
+
+h1, h2, h3, h4, p{
+  animation: text-appear ease-in forwards;
+  animation-timeline: view();
+  animation-range-end: 500px;
+}
+
+@keyframes text-appear {
+  from{
+    opacity: 0.8;
+    scale:0.95;
+  }
+  to{
+    opacity:1;
+    scale:1;
   }
 }
