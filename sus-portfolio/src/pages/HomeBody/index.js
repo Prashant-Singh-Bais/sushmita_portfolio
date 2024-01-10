@@ -114,7 +114,7 @@ const HomeBody = () => {
                 <TextBox heading="Distractors Feature definition + UX Design" 
                         subheadingBold = "Pedagogy + Strategy" 
                         subheading=" to track and improve learning outcomes"
-                        linkPage={"/searchqna"}
+                        linkPage={"/distractors"}
                         SelectedAnimation = {DisAnimation}
                         componentName = 'gifBox3'
                         />

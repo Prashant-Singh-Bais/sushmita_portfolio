@@ -6,11 +6,11 @@ import PageAccord from '../../components/OtherPageContent/PageAccordion'
 import stra_think from "../../assets/Skills/stra_think.svg"
 import headerImg from "../../assets/DAPS/header_img.gif"
 import overviewImage from "../../assets/DAPS/overview_img.svg"
-import { Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8 } from './content';
+import { Content1, Content2, Content3, Content4, Content5, Content6, Content7 } from './content';
 
-const heading1 = "edtech   |   DIGITAL ARISTOTLE pvt ltd";
-const heading2 = "Creating a holistic offering by introducing a new B2C app that functions in tandem with the existing B2B product";
-const header_img = headerImg;
+const heading1 = "";
+const heading2 = "";
+const header_img = "";
 const header_img_directon = "below"; // or "below"
 const myrole = "PRODUCT MANAGER (EARLY CAREER) WORKING CLOSELY WITH THE FOUNDER TO RESEARCH, STRATEGIZE AND ARTICULATE CORE VALUE PROPOSITIONS";
 const skills = {
@@ -48,11 +48,11 @@ const items_data = [
         subheadings: ['Go-to-Market','Revenue model'],
         content: [Content6, Content7]
       },
-      {
-        heading: 'Data Pitch',
-        subheadings: [],
-        content: [Content8]
-      },
+      // {
+      //   heading: 'Data Pitch',
+      //   subheadings: [],
+      //   content: [Content8]
+      // },
   ];
 
 
@@ -60,6 +60,15 @@ const DAPS = () => {
 
     return (
     <div className="daps-container"> 
+    <div className='background-box-3'>
+          <div className='headerholder'>
+            <h1>edtech   |   DIGITAL ARISTOTLE pvt ltd</h1>
+            <h2>Creating a holistic offering by introducing a new B2C app that functions in tandem with the existing B2B product</h2>
+          </div>
+          <div className='imgholder'>
+            <img src={headerImg} alt="headerImg"/>
+          </div>
+        </div>
         <div className="daps-header">
         <Header 
           heading1={heading1}
@@ -75,6 +84,7 @@ const DAPS = () => {
                   overview_para="This project represents my journey from being a Marketing designer to becoming a Product Manager"
                   overview_img={overviewImage}/>
         <PageAccord items = {items_data}/>
+        <div className='background-box-4'></div>
         
     </div>
     

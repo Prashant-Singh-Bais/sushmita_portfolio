@@ -36,17 +36,23 @@ const Content3 = () => (
 
 const Content4 = () => (
     <div className="distractorsContent4">
-        <p>**LOW FIDELITY VERSION**</p>
+        <p><strong>LOW FIDELITY VERSION</strong></p>
         <p>The experience involved a high degree of hand-holding the student through-out the problem solving process and manual input of values.</p>
         <div className='pair'>
             <img src= {img_4} alt="img_4"/>
             <img src= {img_5} alt="img_5"/>
         </div>
-        <p>**HIGH FIDELITY VERSION**</p>
+        <p><strong>HIGH FIDELITY VERSION</strong></p>
         <p>Simplified experience with a multiple choice question format for each step. We are able incorporate 3 distractors per step and limit the number of inputs to be programmed. The result screen also helps the students clearly identify areas of improvement.</p>
-        <div className='pair'>
-            <img src= {img_6} alt="img_6"/>
-            <img src= {header_img} alt="header_img"/>
+        <div className='twobythree'>
+            <div className='small'>
+                <img src= {img_6} alt="img_6"/>
+            </div>
+            <div className='large'>
+                <img src= {header_img} alt="header_img"/>
+            </div>
+            
+            
         </div>
     </div>
 );

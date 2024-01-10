@@ -13,30 +13,57 @@
 }
 .contactCircle
     {
-        margin-left:2rem;
-        margin-top:4rem;
-        margin-bottom:4rem;
+        margin-left:4rem;
+        margin-top:8rem;
+        margin-bottom:8rem;
         display: grid;
         align-items: center;
         justify-content: center;
-        width: 4rem;
-        height: 4rem;
+        width: 6rem;
+        height: 6rem;
         border-radius: 50%;
         border-color: black;
         border-width: 1px;
         border-style: solid;
         background-color: #fff;
+        transition: transform ease-in-out;
         &:hover{
             cursor: pointer;
-            background-color:  #7E41FF;
-            border-color: #F7F4FF;
+            background-color:  rgba(229, 217, 255, 0.30);;
+            border-color: #7E41FF;
+            transform: translateY(-3px);
         }
         img {
             margin: auto;
             display: block;
             align-items: center;
             justify-content: center;
-            width: 70%;
+            width: 50%;
             height: auto;
         }
+    }
+
+    .resume{
+        .contactCircle{
+            width: auto;
+            border-radius: 84px;
+            .text_resume{
+                margin-left: 10px;
+                margin-right: 10px;
+            h1{
+                
+                color: #000;
+                /* heading 2 */
+                font-family: Space Grotesk;
+                font-size: 3rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 69.041px */
+                letter-spacing: -0.506px;
+                margin:0;
+                padding:0;
+            }
+        }
+        }
+    
     }

@@ -9,15 +9,11 @@ const Home = () => {
                 <Ellipse />
             </div>
             <div className="homebody-container">
-                    <HomeBody/>
+                <HomeBody/>
             </div>
-        
         </div>
 
     )
 }
-
-
-
 
 export default Home;

@@ -12,6 +12,7 @@ import img_7 from '../../assets/DAPS/img_7.svg'
 
 const Content1 = () => (
     <div className="daps_content1">
+        {/* <div className='daps_content1_background'></div> */}
         <p>The existing B2B product - AssessEd was a tool that redefined assessments in 3 key ways.</p>
             <ul>
                 <li>Digitized test paper creation</li>
@@ -115,6 +116,9 @@ const Content5 = () => (
 );
 const Content6 = () => (
     <div className="daps_content6">
+        <div className='purple_para2'>
+            <p>A revision and remediation- based B2C app that leverages  personalization to improve learning outcomes</p>
+        </div>
         <img src= {img_6} alt="img_6"/>
         <p>Creating an absolute continuum in the learning process by introducing revision and remediation.</p>
     </div>
@@ -123,6 +127,9 @@ const Content6 = () => (
 const Content7 = () => (
     <div className="daps_content7">
         <img src= {img_7} alt="img_7"/>
+        <div className='purple_para2'>
+            <p>We partnered with Liquid Ink Studio to design the product UI/UX. ‘Aristotle’ app was launched on the App store and Google Playstore in May 2020.</p>
+        </div>
     </div>
 );
 

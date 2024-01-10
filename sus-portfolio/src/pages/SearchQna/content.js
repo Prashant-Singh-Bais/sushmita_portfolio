@@ -76,7 +76,7 @@ const Content3 = () => (
 
 const Content4 = () => (
     <div className="qnaContent4">
-        <div className='pair'>
+        <div className='qna-pair'>
             <div className='img_text_vertical'>
                 <p>Image search</p>
                 <img src= {img_10} alt="img_10"/>
@@ -86,7 +86,7 @@ const Content4 = () => (
                 <img src= {img_11} alt="img_11"/>
             </div>
         </div>
-        <div className='pair'>
+        <div className='qna-pair'>
             <div className='img_text_vertical'>
                 <p>Scenario 1: Exact Match</p>
                 <img src= {img_12} alt="img_12"/>
@@ -149,12 +149,12 @@ const Content6 = () => (
         <p>With consensus on the UX design, we moved on to coordinating the UI design, front-end and back-end development. I used Jira to assign and track tasks.</p>
         <p> The challenge faced by front-end developers was to coordinate vVICE segments with the open steps. We then decided to forego the segmenting of vVICEs.</p>
         <p>Back end developers mostly worked on data management and retrieval. In order to streamline content creation, a tutor-facing tool was designed and shipped. Below is the wireframe -</p>
-        <div className='vertical_images'>
+        <div className='two_images'>
             <img src= {img_27} alt="img_27"/>
             <img src= {img_28} alt="img_28"/>
         </div>
         <p>I was also coordinating a test with the UX Research team to evaluate the feature’s impact on learning outcomes.</p>
-        <div className='vertical_images'>
+        <div className='two_images'>
             <img src= {img_29} alt="img_29"/>
             <img src= {img_30} alt="img_30"/>
         </div>

@@ -29,10 +29,6 @@
     align-items: center; 
 }
 
-.vertical_images img, .img_text_vertical{
-    padding-left: 10px;
-}
-
 .temp_head h2{
     color: #000000;
     font-family: Space Grotesk-Bold;
@@ -45,6 +41,17 @@
 
 .pair img{
     width: 40%;
+    padding-right:15px
+}
+
+.twobythree{
+    display: flex;
+    .small{
+        width:33%
+    }
+    .large{
+        width:66%
+    }
 }
 
 

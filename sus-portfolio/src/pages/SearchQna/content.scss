@@ -1,5 +1,5 @@
 
-.pair img {
+.qna-pair img {
     width: 100%;
 }
 [class^="qnaContent"] {
@@ -23,7 +23,7 @@
 }
 }
 
-.img_text, .pair, .vertical_images{
+.img_text, .qna-pair, .vertical_images{
     display: flex;
 }
 
@@ -31,8 +31,12 @@
     align-items: center; 
 }
 
-.vertical_images img, .img_text_vertical{
-    padding-left: 10px;
+.vertical_images, .img_text_vertical{
+    padding-left: 20px;
+    width:33%;
+    img{
+        width:100%;
+    }
 }
 
 .temp_head h2{
@@ -45,3 +49,10 @@
     letter-spacing: -0.506px;
 }
 
+.two_images{
+    display: flex;
+    img{
+        width: 48%;
+        padding-right:20px;
+    }
+}

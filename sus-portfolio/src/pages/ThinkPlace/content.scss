@@ -70,3 +70,13 @@
     font-weight: 700;
     line-height: 150%; /* 69.041px */
     letter-spacing: -0.506px;}
+
+.twobythreeimages{
+    display: flex;
+    .small{
+        width:33%
+    }
+    .big{
+        width:66%
+    }
+}

@@ -11,7 +11,7 @@ const Content1 = () => (
         <div className='purple_para'>
             <p>How can we undertake a co-design process to build the new National Strategy for Volunteering – one which allows anyone engaged with volunteering to have a meaningful say? </p>
         </div>
-        <p>ThinkPlace responded with an innovative, **participatory futures approach**–inviting community partnership to build a bold vision for volunteering's future, and balancing different perspectives to create a tangible plan for the future.</p>
+        <p>ThinkPlace responded with an innovative, <strong>participatory futures approach</strong>–inviting community partnership to build a bold vision for volunteering's future, and balancing different perspectives to create a tangible plan for the future.</p>
     </div>
 );
 

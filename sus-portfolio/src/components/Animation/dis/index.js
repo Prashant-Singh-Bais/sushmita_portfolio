@@ -33,7 +33,7 @@ const DisAnimation = () => {
         style={{
           position: 'absolute',
           top: '20%',
-          left: '20%',
+          left: '10%',
           // transform: 'translateX(-50%)',
           zIndex: 1,
         }}
@@ -45,7 +45,7 @@ const DisAnimation = () => {
         style={{
           position: 'absolute',
           top: '0',
-          left: '31%',
+          left: '20%',
           // transform: 'translateX(-50%)',
           zIndex: 2,
         }}
@@ -57,7 +57,7 @@ const DisAnimation = () => {
         style={{
           position: 'absolute',
           top: '-20%',
-          left: '42%',
+          left: '30%',
           // transform: 'translateX(-50%)',
           zIndex: 3,
         }}

@@ -4,7 +4,9 @@
     flex-direction: column;
     align-items: left;
     margin-top: 20px;
-    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 86%;
     height: auto;
     position: relative;
     z-index: 2;
@@ -18,9 +20,14 @@
       &.header-content-row {
         flex-direction: row;
         align-items: left;
+        .leftcontainer{
+          display:flex;
+          flex-direction: column;
+          
+        
         .header-texts {
           margin-top: 180px;
-          width: 68.7%;
+          width: 100%;
           h1 {
             margin: 0;
             padding: 5px;
@@ -45,12 +52,14 @@
               letter-spacing: -0.506px;
           }
         }
+      }
         .header-image {
-          width: 32.3%;
+          width: 76%;
           img {
             width: 100%;
             min-width: 100px; // Adjust as needed
             height: auto;
+            margin-top:180px;
           }
         }
 
@@ -189,4 +198,4 @@
     }
     }
 }
-  
+
