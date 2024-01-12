@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sync": "aws s3 sync ./build 's3://sushmitakn.com/'"
+    "sync": "aws s3 sync ./build 's3://sushmitakn.com/'",
+    "invalidate": "aws cloudfront create-invalidation --distribution-id E1D8WPEE0VXAZK --paths '/*'"
   },
   "eslintConfig": {
     "extends": [

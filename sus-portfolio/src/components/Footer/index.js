@@ -47,7 +47,7 @@ const Footer = ({background_color="#fff"}) => {
       }
     return (
         <div className='footer' style={{ backgroundColor: `${background_color}` }}>
-            {/* <StLine /> */}
+            <StLine />
             <div className="footer-content">
                 <div className='gmail'>
                     <ContactCircle imagePath={gmail_logo} linkPage="https://mail.google.com/mail/?view=cm&fs=1&to=sushmitanaraya2694@gmail.com"/>
