@@ -66,8 +66,8 @@ const Content2 = () => (
         <div className='temp_heading_vice'>
             <h2>Research Objectives </h2>
         </div>
-        <StLine type='green'/>
-        <div className='pair'>
+        <StLine element_color="#218148"/>
+        <div className='pair-vice'>
             <div className='short'>
             <h2>Youth’s interpretation of activism</h2>
             </div>
@@ -75,7 +75,7 @@ const Content2 = () => (
             <p>To better define the project’s north star</p>
             </div>
         </div>
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='short'>
                 <h2>Motivations and hesitations</h2>
             </div>
@@ -83,7 +83,7 @@ const Content2 = () => (
                 <p>To identify the entry points to our intervention</p>
             </div>
         </div>
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='short'>
                 <h2>dynamic between real VS. digital identities</h2>
             </div>
@@ -91,7 +91,7 @@ const Content2 = () => (
                 <p>To understand how to create safe spaces digitally and confirm relevance</p>
             </div>
         </div>
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='short'>
                 <h2>Role of media in activism & perception of VICE’s role</h2>
             </div>
@@ -99,7 +99,7 @@ const Content2 = () => (
                 <p>To understand the role Vice can play in engaging youth on activism</p>
             </div>
         </div>
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='short'>
                 <h2>Influence of media in identity formation</h2>
             </div>
@@ -118,8 +118,8 @@ const Content3 = () => (
         <div className='temp_heading_vice'>
             <h2>Learnings </h2>
         </div>
-        <StLine type='green'/>
-        <div className='pair'>
+        <StLine element_color="#218148"/>
+        <div className='pair-vice'>
             <div className='long'>
                 <h2>THE GENZ SELF-IDENTITY IS ALWAYS EVOLVING</h2>
                 <ul>
@@ -143,7 +143,14 @@ const Content3 = () => (
                 </ul>
             </div>
             <div className='short'>
-                <img src= {img_4} alt="img_4"/>
+                <div className='temp-para' 
+                style={{display:'flex',
+                justifyContent:"space-around",
+                marginLeft:"20px"}}>
+                    <p style={{fontSize:"16px"}}>Social Media</p>
+                    <p style={{fontSize:"16px"}}>In-real-life / IRL</p>
+                </div>
+                <img src= {img_4} alt="img_4" style={{marginTop:"0px", paddingTop:"0px"}}/>
             </div>
         </div>
     </div>
@@ -156,10 +163,10 @@ const Content4 = () => (
             <h2>Instagram & YOUTUBE</h2>
         </div>
         
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='long'>
                 <h3>WHAT WE LEARNED</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p>Comments on Youtube were more appreciative than those on Instagram, leading us to conclude that consuming long-form content creates better understanding, increases trust and positive engagement.</p>
                 <div className='equal_pair'>
                     <div className='left'>
@@ -189,13 +196,13 @@ const Content4 = () => (
             <h2>VICE NEWS</h2>
         </div>
         
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='long'>
                 <h3>WHAT WE LEARNED</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p>GenZ reading the news in their own language helps them relate and retain more information.</p>
                 <h3>WHY</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p>Vice News publishes content in a very digestible "boots on the ground" format. Focusing on real-life stories of everyday people affected by political ongoings provides a unique perspective.</p>
             </div>
             <div className='short'>
@@ -205,13 +212,13 @@ const Content4 = () => (
         <div className='temp_heading_vice'>
             <h2>REFINERY 29</h2>
         </div>
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='long'>
                 <h3>WHAT WE LEARNED</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p>GenZ needs a method & direction to take action.</p>
                 <h3>WHY</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p>Refinery29's news articles conclude with an action button that takes the news story further and prompts quick action and conversations on the subject of news. This nudge could contribute to long term identity formation around activism.</p>
             </div>
             <div className='short'>
@@ -222,13 +229,13 @@ const Content4 = () => (
         <div className='temp_heading_vice'>
             <h2>VICE VOICES</h2>
         </div>
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='long'>
                 <h3>WHAT WE LEARNED</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p>Access to GenZ's real opinions is exclusive.</p>
                 <h3>WHY</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p> Vice Voices is a market research tool for advertisers and brand partners for audience and behavioural research. What's in it for GenZ for sharing their views?</p>
             </div>
             <div className='short'>
@@ -274,10 +281,10 @@ const Content5 = () => (
 const Content6 = () => (
     <div className="vice_content6">
         <img src= {img_15} alt="img_15"/>
-        <div className='pair'>
+        <div className='pair-vice'>
             <div className='long'>
                 <h3>EXTRACTING NARRATIVES</h3>
-                <StLine type='green'/>
+                <StLine element_color="#218148"/>
                 <p>Using notes from 25+ interviews, we collated stickies into different groups around which themes were beginning to emerge.</p>
                 <p>This is where I often rely on first-principles thinking to arrive at some understanding and insight. What is behind their need to manufacture a completely different identity online?  </p>
                 <p>Combining learnings from the focus group, social listening and literature review we extracted important narratives.</p>
@@ -289,7 +296,7 @@ const Content6 = () => (
         <div className='temp_heading_vice'>
         <h3>THE VICE SYSTEM MAP</h3>
         </div>
-        <StLine type='green'/>
+        <StLine element_color="#218148"/>
         <p>We drafted this system map to study VICE’s business principles, the effects of media landscape trends and VICE’s leadership. This helped us identify possible points of entry as well as barriers to attracting GenZ activists.</p>
         <img src= {img_17} alt="img_17"/>
         </div>
@@ -320,8 +327,9 @@ const Content9 = () => (
         <div className='temp_heading_vice'>
         <h3>THE WISHING EXERCISE</h3>
         </div>
-        <StLine type='green'/>
-        <img src= {img_30} alt="img_30"/>
+        <StLine element_color="#218148"/>
+        <img src= {img_30} alt="img_30"
+        style={{marginTop:'20px',width:"100%"}}/>
         <p>Synthesizing these, we arrived at 3 initial ideas that we could prototype & test.</p>
         <div className='vertical_images'>
             <img src= {img_31} alt="img_31"/>
@@ -338,7 +346,7 @@ const Content10 = () => (
         <div className='temp_heading_vice'>
         <h3>PROTOTYPE 1 - EXPERIENCING ACTIVISM</h3>
         </div>
-        <StLine type='green'/>
+        <StLine element_color="#218148"/>
         <p>HYPOTHESIS<br />
         By exploring activism through art, GenZ are more likely to be interested in diving deeper into the social issues being discussed daily.</p>
         <p>PROTOTYPE<br />
@@ -356,7 +364,7 @@ const Content10 = () => (
         <div className='temp_heading_vice'>
         <h3>PROTOTYPE 2 - INTROSPECTION AS PART OF THE JOURNEY</h3>
         </div>
-        <StLine type='green'/>
+        <StLine element_color="#218148"/>
         <p>HYPOTHESIS <br />
         By encouraging a daily process of reflection we can normalize the process of continuous learning reinforcing that activism is a journey</p>
         <p> PROTOTYPE <br />
@@ -380,7 +388,7 @@ const Content10 = () => (
         <div className='temp_heading_vice'>
         <h3>PROTOTYPE 3 - ACTIVIST AVATAR QUIZ</h3>
         </div>
-        <StLine type='green'/>
+        <StLine element_color="#218148"/>
         <p>HYPOTHESIS<br />
         Facilitating the discovery of which social issues one is passionate about will increase their awareness about their activist identity.</p>
         <p>PROTOTYPE FORM<br />

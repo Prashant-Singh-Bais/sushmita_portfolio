@@ -5,7 +5,7 @@
     display: flex;
     width: 50%;
     height: auto;
-    border: 1px solid black;}
+    border: 1px solid rgb(0, 0, 0);}
 .leftBox, .rightBox{
     display: flex;
     width: 50%;
@@ -67,11 +67,18 @@
     }
 }
 
+.leftBox-empty, .leftBox{
+    border-left: hidden;
+}
+.rightBox-empty, .rightBox-{
+    border-right: hidden;
+}
+
 
 .projectNav-dark{
     background-color: #000;
     .leftBox-empty, .rightBox-empty{
-        border: 1px solid #fff;
+        border: 1px solid #ffffff;
     }
     .leftBox, .rightBox{
         border: 1px solid #fff;
@@ -92,6 +99,12 @@
             
 
         }
+    }
+    .leftBox-empty, .leftBox{
+        border-left: hidden;
+    }
+    .rightBox-empty, .rightBox-{
+        border-right: hidden;
     }
 }
 

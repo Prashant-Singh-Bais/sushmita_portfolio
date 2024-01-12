@@ -5,7 +5,10 @@ import DownArrow from '../../assets/Arrow_image.svg'
 
 
 
-const ProjectNav = ({leftProject,rightProject}) => {
+const ProjectNav = ({leftProject,rightProject, 
+  background_color="#fff",
+  mode= "light"
+}) => {
     const [currentPage, setCurrentPage] = useState('');
     const location = useLocation();
     const handleClickLeft = () => {
@@ -18,16 +21,24 @@ const ProjectNav = ({leftProject,rightProject}) => {
     useEffect(() => {
         // Update the currentPage state whenever the location changes
         setCurrentPage(location.pathname);
+        console.log("leftProject.projectName",leftProject.projectName)
     }, [location]);
-    const mode = currentPage === '/VICE' ? 'dark' : 'light';
+    if (currentPage === '/VICE') {
+      background_color = "#000";
+      mode="dark";
+    } else if (currentPage === '/ideo_diabetic_care') {
+      background_color = "#1C846C";
+    } 
+  
     return (
-        <div className={'projectNav-' + mode}>
-            {leftProject.projectName === '' ? (
-              <div className='leftBox'></div>
+        <div className={'projectNav-' + mode}
+        style={{ backgroundColor: `${background_color}`}}>
+            {(leftProject === "" || undefined) ? (
+              <div className='leftBox-empty'></div>
             ) : (
               <div className='leftBox' onClick={handleClickLeft}>
                 <div className='arrowLeft'>
-                  <img src={DownArrow} alt="Down Arrow" />
+                  <img src={DownArrow} alt="Down Arrow"/>
                 </div>
                 <div className="projectNav-content-left">
                   <h2>PREV PROJECT</h2>
@@ -45,7 +56,7 @@ const ProjectNav = ({leftProject,rightProject}) => {
                   <h3>{rightProject.projectName}</h3>
                 </div>
                 <div className='arrowRight'>
-                  <img src={DownArrow} alt="Down Arrow" />
+                  <img  src={DownArrow} alt="Down Arrow"/>
                 </div>
               </div>
             )}

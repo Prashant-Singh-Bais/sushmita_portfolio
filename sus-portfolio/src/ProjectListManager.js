@@ -3,17 +3,17 @@ function getNextAndPrevious(currentUrl) {
     const jsonData = [
         {
             "projectName": "Reimagining the Diabetic Patient Experience",
-            "url": "/ideo",
+            "url": "/comingsoon",//"/ideo_diabetic_care",
             "compony": "ideo"
         },
         {
             "projectName": "Public Health design Research",
-            "url": "/ideo2",
+            "url": "/comingsoon",//"/ideo_medcare",
             "compony": "ideo"
         },
         {
             "projectName": "The Student Writting Experience",
-            "url": "/ideo3",
+            "url": "/comingsoon",//"/ideo_student",
             "compony": "ideo"
         },
         {

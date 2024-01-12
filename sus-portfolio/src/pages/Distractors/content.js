@@ -38,7 +38,7 @@ const Content4 = () => (
     <div className="distractorsContent4">
         <p><strong>LOW FIDELITY VERSION</strong></p>
         <p>The experience involved a high degree of hand-holding the student through-out the problem solving process and manual input of values.</p>
-        <div className='pair'>
+        <div className='pair-dis'>
             <img src= {img_4} alt="img_4"/>
             <img src= {img_5} alt="img_5"/>
         </div>

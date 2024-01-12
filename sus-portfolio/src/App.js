@@ -10,6 +10,8 @@ import SearchQna from './pages/SearchQna';
 import VICE from './pages/VICE';
 import DAPS from './pages/DAPS';
 import DAPD from './pages/DAPD';
+import IdeoDia from './pages/IdeoDiab/index.js';
+import IdeoStudent from './pages/IdeoStudent/index.js';
 import ThinkPlace from './pages/ThinkPlace/index.js';
 import ComingSoon from './pages/ComingSoon/index.js';
 import Distractors from './pages/Distractors/index.js';
@@ -31,6 +33,8 @@ function App() {
     { path: '/da_product_design', element: <DAPD /> },
     { path: '/thinkplace', element: <ThinkPlace /> },
     { path: '/distractors', element: <Distractors /> },
+    { path: '/ideo_diabetic_care', element: <IdeoDia /> },
+    { path: '/ideo_student', element: <IdeoStudent/> },
 
   ]);
 
@@ -46,12 +50,15 @@ function App() {
   let nextProject = "";
   if (currentPage !== '/' ){
     const projectData = getNextAndPrevious(currentPage);
-    if (projectData.prevData !== null && typeof projectData.prevData === 'object') {
+    if ((projectData.prevData !== null || undefined) && typeof projectData.prevData === 'object') {
       previousProject = projectData.prevData;
+      console.log("projectData.prevData;",projectData.prevData)
+      
     }
     if (projectData.nextData !== null && typeof projectData.nextData === 'object') {
       nextProject = projectData.nextData;
     }
+    console.log("previousProject11","s",previousProject,"s")
     
   }
   return (
@@ -71,6 +78,8 @@ function App() {
             <Route path="/da_product_design" element={<DAPD />} />
             <Route path="/thinkplace" element={<ThinkPlace />} />
             <Route path="/distractors" element={<Distractors />} />
+            <Route path="/ideo_diabetic_care" element={<IdeoDia />} />
+            <Route path="/ideo_student" element={<IdeoStudent />} />
             {/* Add more routes as needed */}
           </Routes>
         ) : (

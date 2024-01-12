@@ -1,4 +1,4 @@
-.img_text, .pair, .vertical_images, .equal_pair{
+.img_text, .pair-vice, .vertical_images, .equal_pair{
     display: flex;
 }
 
@@ -67,7 +67,7 @@
         text-transform: uppercase;
     }
 }
-.pair {
+.pair-vice {
     .short{
         width: 35%;
         img{
@@ -112,7 +112,7 @@
     margin-bottom: 50px;
 }
 
-.vice_content3 .pair {
+.vice_content3 .pair-vice {
     
 .long p{
 color: #fff;

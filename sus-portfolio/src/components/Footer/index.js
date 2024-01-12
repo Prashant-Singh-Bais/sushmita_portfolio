@@ -30,7 +30,7 @@ const ContactCircle = ({ imagePath, linkPage, text }) => {
 
 
 
-const Footer = () => {
+const Footer = ({background_color="#fff"}) => {
     const [currentPage, setCurrentPage] = useState('');
     const location = useLocation();
 
@@ -38,10 +38,16 @@ const Footer = () => {
         // Update the currentPage state whenever the location changes
         setCurrentPage(location.pathname);
     }, [location]);
-    const mode = currentPage === '/VICE' ? 'dark' : 'light';
+    if (currentPage === '/VICE') {
+        background_color = "#000";
+      } else if (currentPage === '/ideo_diabetic_care') {
+        background_color = "#1C846C";
+      } else {
+        background_color = "#fff";
+      }
     return (
-        <div className={'footer-' + mode}>
-            <StLine type={mode}/>
+        <div className='footer' style={{ backgroundColor: `${background_color}` }}>
+            {/* <StLine /> */}
             <div className="footer-content">
                 <div className='gmail'>
                     <ContactCircle imagePath={gmail_logo} linkPage="https://mail.google.com/mail/?view=cm&fs=1&to=sushmitanaraya2694@gmail.com"/>

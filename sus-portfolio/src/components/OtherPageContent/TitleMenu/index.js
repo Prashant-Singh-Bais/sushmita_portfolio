@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import StLine from '../../Shapes/StLines';
 import './index.scss';
 
-const TitleMenu = ({ items }) => {
+const TitleMenu = ({ items, text_color = "#000" }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleItem = (index) => {
@@ -29,10 +29,14 @@ const TitleMenu = ({ items }) => {
           <div
             className={`titlemenu-heading ${item.subheadings.length === 0 ? 'clickable-heading' : ''}`}
             onClick={() => toggleItem(index)}
+            style={ {color:`${text_color}`}}
           >
             {item.heading}
             {item.subheadings.length > 0 && (
-              <span className="titlemenu-icon">{openIndex === index ? '-' : '+'}</span>
+              <span className="titlemenu-icon"
+                    style={ {color:`${text_color}`}}>
+                {openIndex === index ? '-' : '+'}
+                </span>
             )}
           </div>
           {openIndex === index && item.subheadings.length > 0 && (
@@ -42,7 +46,7 @@ const TitleMenu = ({ items }) => {
                   key={subIndex} 
                   onClick={() => scrollToContent(subheading)}
                   className="titlemenu-subheading" // Added for styling and better click recognition
-                  style={{ cursor: 'pointer' }} // Makes it visually clear that it's clickable
+                  style={{ cursor: 'pointer', color:`${text_color}` }} // Makes it visually clear that it's clickable
                 >
                   {subheading}
                 </div>

@@ -1,9 +1,13 @@
-import React from 'react';
 import './index.scss';
+import React from 'react';
 
-const StLine = ({ type = 'light' }) => (
-  <div className={`line ${type === 'light' ? 'dark-line' : type === 'dark' ? 'light-line' : 'green-line'}`}></div>
-);
+const StLine = ({ element_color = "#000" }) => {
+
+  return(
+  <div className="line"
+        style= {{backgroundColor:element_color, width: '100%'}}
+  ></div>
+)};
 
 export default StLine;
 
