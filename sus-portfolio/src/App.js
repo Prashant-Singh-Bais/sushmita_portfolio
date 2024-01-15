@@ -11,6 +11,7 @@ import VICE from './pages/VICE';
 import DAPS from './pages/DAPS';
 import DAPD from './pages/DAPD';
 import IdeoDia from './pages/IdeoDiab/index.js';
+import IdeoMed from './pages/IdeoMed/index.js';
 import IdeoStudent from './pages/IdeoStudent/index.js';
 import ThinkPlace from './pages/ThinkPlace/index.js';
 import ComingSoon from './pages/ComingSoon/index.js';
@@ -34,6 +35,7 @@ function App() {
     { path: '/thinkplace', element: <ThinkPlace /> },
     { path: '/distractors', element: <Distractors /> },
     { path: '/ideo_diabetic_care', element: <IdeoDia /> },
+    { path: '/ideo_medcare', element: <IdeoMed /> },
     { path: '/ideo_student', element: <IdeoStudent/> },
 
   ]);
@@ -80,6 +82,7 @@ function App() {
             <Route path="/distractors" element={<Distractors />} />
             <Route path="/ideo_diabetic_care" element={<IdeoDia />} />
             <Route path="/ideo_student" element={<IdeoStudent />} />
+            <Route path="/ideo_medcare" element={<IdeoMed />} />
             {/* Add more routes as needed */}
           </Routes>
         ) : (

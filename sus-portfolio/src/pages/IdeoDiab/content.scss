@@ -1,11 +1,11 @@
 
-[class^="thinkplace_content"] {
+[class^="ideodia_content"] {
     img{
         width:100%;
         border-radius: 2%;
     }
     ul li{
-    color: #000;
+    color: #fff;
     font-family: Rubik_custom;
     font-size: 24px;
     font-style: normal;
@@ -14,7 +14,7 @@
     letter-spacing: -0.552px;
 }
     p{
-        color: #000;
+        color: #fff;
         font-family: Rubik_custom;
         font-size: 24px;
         font-style: normal;
@@ -23,7 +23,7 @@
         letter-spacing: -0.552px;
     }
 }
-.img_text, .thinkplace-pair, .vertical_images{
+.img_text, .ideodia-pair, .vertical_images{
     display: flex;
 }
 
@@ -32,8 +32,8 @@
 }
 
 
-.thinkplace_head h2{
-    color: #000000;
+.ideodia_head h2{
+    color: #fff;
     font-family: Space Grotesk-Bold;
     font-size: 46.027px;
     font-style: normal;
@@ -51,9 +51,9 @@
     padding-top: 70px;
 
 }
-.thinkplace_content_heading h2
+.ideodia_content_heading h2
 {
-    color: #1E1E1E;
+    color: #fff;
     font-family: Space Grotesk-Bold;
     font-size: 46.027px;
     font-style: normal;
@@ -62,14 +62,14 @@
     letter-spacing: -0.506px;
 }
 
-.purple_para p{
-    color: var(--digital-lavender, #7E41FF);
-    font-family: Space Grotesk-Bold;
-    font-size: 46.027px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 69.041px */
-    letter-spacing: -0.506px;}
+.yello_para p{
+    color: #FEE171;
+font-family: Rubik_custom;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 60px */
+letter-spacing: -0.92px;}
 
 .twobythreeimages{
     display: flex;
@@ -80,3 +80,15 @@
         width:66%
     }
 }
+.squile1, .squile2{
+    display: grid;
+    img{
+        padding-top:40px;
+        width:20%;
+    }
+}
+.squile1 {
+    justify-items: end;
+    img{
+    transform: translateY(75px);
+}}

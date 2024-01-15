@@ -4,21 +4,23 @@ import Header from '../../components/OtherPageContent/Header';
 //import Overview from '../../components/OtherPageContent/Overview';
 import PageAccord from '../../components/OtherPageContent/PageAccordion'
 import stra_think from "../../assets/Skills/stra_think.svg"
-import headerImg from "../../assets/ideodia/header_img.svg"
-//import overviewImage from "../../assets/ideodia/overview_img.svg"
+import headerImg from "../../assets/ideomed/header_img.svg"
+//import overviewImage from "../../assets/IdeoMed/overview_img.svg"
 import { Content1, Content2, Content3} from './content';
 
 const heading1 = "HEALTHCARE   |   IDEO";
-const heading2 = "Enhancing the patient experience with clarity and transparency to reposition a global healthcare titan";
+const heading2 = "Systemic design solutions promoting early Dementia detection for the Public Health Department in partnership with a State University";
 const header_img = headerImg;
 const header_img_directon = "below"; // or "below"
-const myrole = "INTERACTION DESIGNER collaborating with multiple design leads. Involved in research synthesis, client interactions and prototyping. led the final iteration of redesigning the user experience and creating lo-fi prototypes.";
+const myrole = "INTERACTION DESIGNER collaborating with Design research lead. Involved in research design, client interactions and prototyping. led the experience design & prototyping work-stream in collaboration with lead.";
 const skills = {
-"feature definition": stra_think,
+"SACRIFICIAL CONCEPTS": stra_think,
+"INTERVIEWING": stra_think,
+"Strategic thinking": stra_think, 
 "ux design": stra_think,
-"prototyping": stra_think, // Replace with actual image paths
+"prototyping": stra_think, 
 };
-const collaborators = ["business design lead", "design research lead", "interaction design lead", "data scientist"];
+const collaborators = ["design research lead", "interaction design lead", "PORTFOLIO MANAGER, MD."];
 
 const items_data = [
     {
@@ -40,11 +42,11 @@ const items_data = [
   ];
 
 
-const IdeoDia = () => {
+const IdeoMed = () => {
 
     return (
-    <div className="ideodia-container"> 
-        <div className="ideodia-header">
+    <div className="IdeoMed-container"> 
+        <div className="IdeoMed-header">
         <Header 
           heading1={heading1}
           heading2={heading2}
@@ -59,14 +61,15 @@ const IdeoDia = () => {
         {/* <Overview overview_heading="Overview" 
                   overview_para="This project represents my journey from being a Marketing designer to becoming a Product Manager"
                   overview_img={overviewImage}/> */}
-        <PageAccord items = {items_data} text_color="#FEE171"/>
+        <PageAccord items = {items_data}/>
+        
         
     </div>
     
     )
 }
 
-export default IdeoDia;
+export default IdeoMed;
 
 
 

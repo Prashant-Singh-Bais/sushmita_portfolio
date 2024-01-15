@@ -1,5 +1,6 @@
 
 [class^="ideostu_content"] {
+    
     img{
         width:100%;
         border-radius: 2%;
@@ -62,14 +63,14 @@
     letter-spacing: -0.506px;
 }
 
-.purple_para p{
+.purple_para_rubic p{
     color: var(--digital-lavender, #7E41FF);
-    font-family: Space Grotesk-Bold;
-    font-size: 46.027px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 69.041px */
-    letter-spacing: -0.506px;}
+font-family: Rubik_custom;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 60px */
+letter-spacing: -0.92px;}
 
 .twobythreeimages{
     display: flex;
@@ -80,3 +81,14 @@
         width:66%
     }
 }
+
+
+.eightandtwo{
+        display: flex;
+        .small{
+            width:20%
+        }
+        .large{
+            width:80%
+        }
+    }

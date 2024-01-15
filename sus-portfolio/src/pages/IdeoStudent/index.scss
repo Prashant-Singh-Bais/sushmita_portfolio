@@ -1,11 +1,18 @@
 .ideostudent-container{
-    background-image: url('../../assets/ideostudent/check_pattern.png');
+    background: #FFFDE6;
     width: 100%;
     padding-bottom: 100px;
     overflow-y: visible;
     display: flex;
     position: relative;
     flex-direction: column;
+    .overview_img{
+        background: #52B8A0;
+        border-radius: 2%;
+    }
+    .Header .describe_container {
+        width:135%;
+    }
 
 }
 

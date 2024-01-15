@@ -1,0 +1,55 @@
+
+[class^="IdeoMed_content"] {
+    img{
+        width:100%;
+        border-radius: 2%;
+    }
+    p, ul li{
+    color: #000;
+    font-family: Rubik_custom;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.552px;
+}
+    
+}
+.img_text, .thinkplace-pair, .vertical_images{
+    display: flex;
+}
+
+.img_text{
+    align-items: center; 
+}
+
+
+.content{
+    position: absolute;
+    z-index: 1;
+}
+
+.contentImage img{
+    padding-top: 70px;
+
+}
+
+
+.purple_para p{
+    color: var(--digital-lavender, #7E41FF);
+    font-family: Space Grotesk-Bold;
+    font-size: 46.027px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 69.041px */
+    letter-spacing: -0.506px;}
+
+.twobythreeimages{
+    display: flex;
+    .small{
+        width:33%
+    }
+    .big{
+        width:66%
+    }
+}

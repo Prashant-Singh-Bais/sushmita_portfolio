@@ -4,7 +4,9 @@ import './index.scss';
 const Header = ({
   heading1,
   heading2,
+  disclaimer,
   header_img,
+  header_animation,
   header_img_directon, // could be right of heading1 and heading2 or below heading 1 and heading 2
   myrole,
   skills, // this should be a dict containing key as skill name and value as img
@@ -21,6 +23,7 @@ const Header = ({
             <div className="header-texts">
               {heading1 && <h1>{heading1}</h1>}
               {heading2 && <h2>{heading2}</h2>}
+              {disclaimer && <h4>{disclaimer}</h4>}
             </div>
             <div className="describe_container">
               {myrole && (
@@ -65,7 +68,18 @@ const Header = ({
           <div className="header-texts">
             {heading1 && <h1>{heading1}</h1>}
             {heading2 && <h2>{heading2}</h2>}
+            {disclaimer && <h4>{disclaimer}</h4>}
           </div>
+          {header_img && (
+            <div className="header-image">
+              <img src={header_img} alt="Header" />
+            </div>
+          )}
+          {header_animation && (
+            <div className="header-image">
+              <header_animation/>
+            </div>
+          )}
           <div className="describe_container">
             {myrole && (
               <div className="myrole">
@@ -97,11 +111,7 @@ const Header = ({
               </div>
             )}
           </div>
-          {header_img && (
-            <div className="header-image">
-              <img src={header_img} alt="Header" />
-            </div>
-          )}
+          
         </div>
       )}
     </>

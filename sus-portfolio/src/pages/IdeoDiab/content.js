@@ -1,42 +1,45 @@
 import './content.scss'
-// import img_1 from '../../assets/ideodia/img_1.png'
-// import img_2 from '../../assets/ideodia/img_2.png'
-// import img_3 from '../../assets/ideodia/img_3.png'
-// import img_4 from '../../assets/ideodia/img_4.png'
-// import img_5 from '../../assets/ideodia/img_5.png'
+import img_1 from '../../assets/ideodia/img_1.png'
+import img_2 from '../../assets/ideodia/img_2.png'
+import img_3 from '../../assets/ideodia/img_3.svg'
+import img_4 from '../../assets/ideodia/img_4.webp'
 
 const Content1 = () => (
     <div className="ideodia_content1">
-        <p>Our client is an EdTech platform that helps educators and students to employ generative AI in school essay writing. Their ethos has been to embrace the technology in the right way, rather than ban it. </p>
-        <p>Our brief was to design a student-side writing experience, that would complement the existing teacher-side evaluating experience.</p>
-        <p>The project was scoped as a 5-week sprint. Our plan of action -</p>
-        <ul>
-            <li>Experiment with Gen AI capabilities</li>
-            <li>Brainstorm feature ideas</li>
-            <li>Design and conduct student interviews around sacrificial concepts</li>
-            <li>Synthesize and deliver an MVP feature-set</li>
-        </ul>
+        <p>IDEO was approached by the marketing team of a pharmaceutical giant which a goal to transform the top-of-the-funnel experience of the product and brand in one that is more patient-centric.</p>
+        <p>As a global brand, some of their main challenges were related to creating a consistent experience worldwide, while also adhering to different legal guidelines, for example with data consent, in different markets. Internally, our team also faces constraint from not being able to redesign certain key features that were deemed out-of-scope.</p>
+        <img src={img_1} alt=""/>
+        <p>Interviews were conducted with patients with diabetes and health-care providers from different parts of the global market. </p>
+        <div className='squile1'>
+            <img src={img_2} alt=""/>
+        </div>
     </div>
 );
 
 const Content2 = () => (
     <div className="ideodia_content2">
-        <p>From our previous research interviews we learnt that </p>
-        <div className='purple_para'>
-            <p>Students struggle with the nuances of writing where AI can lend a helping hand but also provide adequate space for original thought and mentorship from the teacher.</p>
+        <p>Our research synthesis was a rigorous week-long process that involved studying journey maps, myriad of interview notes and deliberations from different perspectives. We finally arrived at core insights revolving around - </p>
+        <div className='yello_para'>
+            <p>Lack of clarity<br/>Lack of trust &<br/>Lack of awareness</p>
         </div>
+        <p>The project mid-point review was a co-designing workshop that was aimed at arriving at prioritized touch points where the experience could be reimagined. We identified 3 key user flows.</p>
+        <img src={img_3} alt=""/>
     </div>
+
 );
 
 const Content3 = () => (
     <div className="ideodia_content3">
-        <p>We created 7 sacrificial concepts that enhanced the student writing experience but did not replace their process of thinking through an essay. Concepts revolved around - </p>
-        <ul>
-            <li>Getting started & Finding the right topic</li>
-            <li>Planning the essay with research & analysis</li>
-            <li>Writing with logistic assistance & examples</li>
-            <li>Refining with AI assistance with tonality and editing</li>
-        </ul>
+        <div className='greenrect'>
+            <img src={img_4} alt=""/>
+        </div>
+        <p>As an interaction designer, I mainly owned the design and iteration of low and high fidelity prototypes of the reimagined experience. Each of the 3 user flows had a unique design focus which I implemented in the following way - </p>
+        <p>Discovery - Amplified clarity & guided support </p>
+        <p>Onboarding - Gaining consent & trust</p>
+        <p>Ongoing - Improved troubleshooting leveraging self-serve & personalization in continued learning</p>
+        <div className='squile2'>
+            <img src={img_2} alt=""/>
+        </div>
     </div>
 
 );

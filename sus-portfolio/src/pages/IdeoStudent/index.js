@@ -4,8 +4,8 @@ import Header from '../../components/OtherPageContent/Header';
 import Overview from '../../components/OtherPageContent/Overview';
 import PageAccord from '../../components/OtherPageContent/PageAccordion'
 import stra_think from "../../assets/Skills/stra_think.svg"
-import headerImg from "../../assets/ideostudent/header_img.png"
-import overviewImage from "../../assets/ideostudent/overview_img.png"
+import headerImg from "../../assets/ideostudent/header_image.svg"
+import overviewImage from "../../assets/ideostudent/overview_img.svg"
 import { Content1, Content2, Content3 } from './content';
 
 const heading1 = "edtech   |   IDEO";
@@ -49,6 +49,7 @@ const IdeoStudent = () => {
         <Header 
           heading1={heading1}
           heading2={heading2}
+          disclaimer="*Client details and visual design are modified or not mentioned due to a confidentiality agreement"
           header_img={header_img}
           header_img_directon={header_img_directon}
           myrole={myrole}
@@ -56,7 +57,7 @@ const IdeoStudent = () => {
           collaborators={collaborators}/>
         </div>
 
-        <Overview overview_heading="" 
+        <Overview overview_heading="5-week Sprint Overview" 
                   overview_para=""
                   overview_img={overviewImage}/> 
         <PageAccord items = {items_data}/>

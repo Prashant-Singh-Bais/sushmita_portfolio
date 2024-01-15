@@ -69,7 +69,7 @@ const HomeBody = () => {
                 <TextBox heading="Reimagining the Diabetic Patient Experience" 
                         subheadingBold = "UX design" 
                         subheading=" to reposition a global healthcare giant with enhanced patient-centric features and user flows"
-                        linkPage= '/ideo'
+                        linkPage= '/ideo_diabetic_care'
                         SelectedAnimation= {ideoAnimation1}
                         componentName= 'Box1'
                         
@@ -84,7 +84,7 @@ const HomeBody = () => {
                         heading="Public Health Design Research" 
                         subheadingBold = "Service Design" 
                         subheading=" to promote early dementia detection in partnership with the Public Health Dept & State University."
-                        linkPage= '/ideo'
+                        linkPage= '/ideo_medcare'
                         SelectedAnimation= {ideoAnimation2}
                         componentName= 'Box1'
                         />
@@ -92,7 +92,7 @@ const HomeBody = () => {
                 heading="The Student Writing Experience" 
                         subheadingBold = "Strategy + UX design" 
                         subheading=" to test and launch newly conceptualized Gen AI based writing features, with a focus on learner inclusivity."
-                        linkPage= '/ideo'
+                        linkPage= '/ideo_student'
                         SelectedAnimation= {ideoAnimation3}
                         componentName= 'Box1'
                         />
