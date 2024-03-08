@@ -24,6 +24,7 @@ import poster_gif from '../../assets/VICE/img_49.gif'
 import ideo1 from '../../assets/animation/ideo1.webp'
 import ideo2 from '../../assets/animation/ideo2.gif'
 import ideo3 from '../../assets/animation/ideo3.gif'
+import resume from '../../assets/Resume_Sushmita.pdf'
 
 import ScrollChecker from './scrollBehaviour';
 
@@ -47,8 +48,11 @@ const HomeBody = () => {
 
         <div className="textboxC">
             <div className="B1"><Text3 inputText = "MS in Strategic Design & Management, Parsons School of Design, New York"/></div>
-            <div className="B2"><Text3 inputText = "ILLUSTRATOR & MULTI-MEDIA ARTIST"/></div>
-            <div className="B3"><Text3 inputText = "DOMAIN EXPERTISE IN LEARNING & EDUCATION"/></div>
+            <div className="B2"><h3>
+                <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
+                </h3></div>
+            {/* <div className="B2"><Text3 inputText = "ILLUSTRATOR & MULTI-MEDIA ARTIST"/></div>
+            <div className="B3"><Text3 inputText = "DOMAIN EXPERTISE IN LEARNING & EDUCATION"/></div> */}
         </div>
 
         <div className='Downarrow'>

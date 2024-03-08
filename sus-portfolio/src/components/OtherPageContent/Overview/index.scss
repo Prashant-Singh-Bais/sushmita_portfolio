@@ -8,7 +8,7 @@
     h4 {
         color: var(--digital-lavender, #7E41FF);
         font-family: Rubik_custom;
-        font-size: 16px;
+        font-size: calc(16px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 24px */
@@ -19,7 +19,7 @@
     p{
         color: #000;
         font-family: Rubik_custom;
-        font-size: 16px;
+        font-size: calc(16px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 24px */

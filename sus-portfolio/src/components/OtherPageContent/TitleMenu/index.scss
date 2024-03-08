@@ -12,7 +12,7 @@
 
       color: #000;
         font-family: "Rubik_custom";
-        font-size: 32px;
+        font-size: calc(32px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 60px */
@@ -24,7 +24,7 @@
     }
   
     .titlemenu-icon {
-      font-size: 70%;
+      font-size: calc(70% * var(--scale));
       transform: translateX(20px);
     }
   
@@ -36,7 +36,7 @@
 
       color: #000;
         font-family: "Rubik_custom";
-        font-size: 24px;
+        font-size: calc(24px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 24px */

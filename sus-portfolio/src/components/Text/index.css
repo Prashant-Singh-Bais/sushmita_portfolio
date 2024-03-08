@@ -7,7 +7,7 @@
 h1 {
   color: #000;
   font-family: Rubik_custom;
-  font-size: 48px;
+  font-size: calc(48px * var(--scale));
   font-style: normal;
   font-weight: 300;
   line-height: 150%; /* 72px */
@@ -26,7 +26,7 @@ h1 {
 h2 {
   color: #1E1E1E;
   font-family: "Space Grotesk";
-  font-size: 40px;
+  font-size: calc(40px * var(--scale));
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 84px */
@@ -62,7 +62,7 @@ h3 {
   text-wrap: wrap;
   color: #000;
   font-family: "Rubik_custom";
-  font-size: 12px;
+  font-size: calc(12px * var(--scale));
   font-style: normal;
   font-weight: 300;
   line-height: 150%; /* 36px */

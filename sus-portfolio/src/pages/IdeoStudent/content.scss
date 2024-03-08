@@ -8,7 +8,7 @@
     ul li{
     color: #000;
     font-family: Rubik_custom;
-    font-size: 24px;
+    font-size: calc(24px * var(--scale));
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 36px */
@@ -17,7 +17,7 @@
     p{
         color: #000;
         font-family: Rubik_custom;
-        font-size: 24px;
+        font-size: calc(24px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 36px */
@@ -36,7 +36,7 @@
 .ideostu_head h2{
     color: #000000;
     font-family: Space Grotesk-Bold;
-    font-size: 46.027px;
+    font-size: calc(46px * var(--scale));
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 69.041px */
@@ -56,7 +56,7 @@
 {
     color: #1E1E1E;
     font-family: Space Grotesk-Bold;
-    font-size: 46.027px;
+    font-size: calc(46px * var(--scale));
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 69.041px */
@@ -66,7 +66,7 @@
 .purple_para_rubic p{
     color: var(--digital-lavender, #7E41FF);
 font-family: Rubik_custom;
-font-size: 40px;
+font-size: calc(40px * var(--scale));
 font-style: normal;
 font-weight: 300;
 line-height: 150%; /* 60px */

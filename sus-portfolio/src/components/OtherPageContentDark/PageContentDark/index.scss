@@ -12,7 +12,7 @@
   .content-sectionDark .sub-section h4 {
     color: #ffffff;
     font-family: Space Grotesk-Bold;
-    font-size: 46.027px;
+    font-size: calc(46px * var(--scale));
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 69.041px */
@@ -22,7 +22,7 @@
   .content-sectionDark .sub-section p {
     color: #ffffff;
     font-family: "Rubik_custom";
-    font-size: 24px;
+    font-size: calc(24px * var(--scale));
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 36px */

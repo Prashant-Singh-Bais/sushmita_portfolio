@@ -2,7 +2,7 @@
 .Text1 h1{
     color: #000;
     font-family: "Rubik_custom";
-    font-size: 48px;
+    font-size: calc(48px * var(--scale));
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 72px */
@@ -12,7 +12,7 @@
 .Text2 h2{
     color: #1E1E1E;
     font-family: Space Grotesk-Bold;
-    font-size: 56px;
+    font-size: calc(56px * var(--scale));
     font-style: normal;
     font-weight: 1200;
     line-height: 150%; /* 84px */
@@ -22,18 +22,19 @@
 .Text3 h3{
     color: #000;
     font-family: "Rubik_custom";
-    font-size: 24px;
+    font-size: calc(24px * var(--scale));
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 36px */
     letter-spacing: -0.552px;
     text-transform: uppercase;
+    margin: 0;
     }
 
 .Text4 h4{
     color: #000;
     font-family: "Rubik_custom";
-    font-size: 16px;
+    font-size: calc(16px * var(--scale));
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 24px */
@@ -44,7 +45,7 @@
 .Text5 h4{
         color: var(--digital-lavender, #7E41FF);
         font-family: "Rubik_custom";
-        font-size: 24px;
+        font-size: calc(24px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 36px */

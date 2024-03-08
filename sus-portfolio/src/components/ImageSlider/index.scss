@@ -26,8 +26,8 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        font-size: 50px;
-        size: 50px;
+        font-size: calc(50px * var(--scale));
+        size:  calc(50px * var(--scale));
         cursor: pointer;
         color: white;
         padding: 5px;

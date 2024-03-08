@@ -20,7 +20,7 @@
           padding: 5px;
           color: var(--digital-lavender, #7E41FF);
             font-family: "Rubik_custom";
-            font-size: 24px;
+            font-size: calc(24px * var(--scale));
             font-style: normal;
             font-weight: 300;
             line-height: 150%; /* 36px */
@@ -32,7 +32,7 @@
           margin: 10px 0;
           color: #FFF;;
             font-family: Space Grotesk-Bold;
-            font-size: 46.027px;
+            font-size: calc(46px * var(--scale));
             font-style: normal;
             font-weight: 700;
             line-height: 150%; /* 69.041px */
@@ -83,7 +83,7 @@
         margin-right: 10px;
         color: var(--digital-lavender, #7E41FF);
         font-family: "Rubik_custom";
-        font-size: 16px;
+        font-size: calc(16px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 24px */
@@ -93,7 +93,7 @@
         margin: 5px 10px 10px 0px;
         color: #FFF;;
         font-family: "Rubik_custom";
-        font-size: 16px;
+        font-size: calc(16px * var(--scale));
         font-style: normal;
         font-weight: 300;
         line-height: 150%; /* 24px */
@@ -113,7 +113,7 @@
             color: #FFF;
           margin: 5px 0;
           font-family: "Rubik_custom";
-          font-size: 16px;
+          font-size: calc(16px * var(--scale));
           font-style: normal;
           font-weight: 300;
           line-height: 150%; /* 24px */
@@ -131,7 +131,7 @@
             align-items: center;
             color: #FFF;
             font-family: "Rubik_custom";
-            font-size: 16px;
+            font-size: calc(16px * var(--scale));
             font-style: normal;
             font-weight: 300;
             line-height: 150%; /* 24px */

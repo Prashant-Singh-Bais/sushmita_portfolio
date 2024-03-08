@@ -43,6 +43,7 @@
     .textboxC {
         position: relative;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
         z-index: 3;
@@ -50,13 +51,24 @@
         padding-right: 5%;
         .B1 {
             display: block;
-            width: 35%;
+            width: 40%;
             height:auto;
         }
         .B2 {
             display: block;
             width: 16%;
             height: auto;
+            h3{
+                color: #000;
+                font-family: "Rubik_custom";
+                font-size: calc(24px * var(--scale));
+                font-style: normal;
+                font-weight: 300;
+                line-height: 150%;
+                letter-spacing: -0.552px;
+                text-transform: uppercase;
+                margin: 0;
+                }
         }
         .B3 {
             display: block;
@@ -285,3 +297,17 @@
         scale:1;
     }
 }
+
+
+:root {
+    /* Default scale for screen width above 500px */
+    --scale: 1;
+}
+
+@media (max-width: 500px) {
+    :root {
+        /* Scale for screen width 500px or below */
+        --scale: 0.5;
+    }
+}
+

@@ -21,7 +21,7 @@
 .outertextbox .headingBox h2 {
     color: #000;
     font-family: Space Grotesk-Bold;
-    font-size: 40px;
+    font-size: calc(40px * var(--scale));
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 60px */
@@ -31,7 +31,7 @@
 .outertextbox .subheadingBox p{
     color: #000;
     font-family: "Rubik_custom";
-    font-size: 24px;
+    font-size: calc(24px * var(--scale));
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
